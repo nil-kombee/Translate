@@ -20,7 +20,7 @@
   "pleasetryagainlater": "ଦୟାକରି ପରେଣିବା ପ୍ରସଙ୍ଗରେ ପ୍ରସ୍ତୁତ ହେବାକୁ ଚେଷ୍ଟା କରନ୍ତୁ",
   "somethingwentwrong": "କୌଣସି ତ୍ରୁଟି ହୋଇଛି!",
   "otpHasSentTo": "ଏକ OTP ପଠାଯାଇଛି",
-  "otpHasSentToLogin": "ଏକ OTP ପଠାଯାଇଛି",
+  "otpHasSentToLogin": "ଏକ OTP କୁ ପଠାଯାଇଛି",
   "yourMobileNotSecure": "ଆପଣଙ୍କର ମୋବାଇଲ୍ ସୁରକ୍ଷିତ ନୁହେଁ!",
   "sparkleId": "ସ୍ପାର୍କଲ୍ ଆଇଡି",
   "opusId": "  Opus ଆଇଡି",
@@ -130,7 +130,7 @@
   "scanQRCode": "କ୍ୟୁଆର କୋଡ ସ୍କାନ କରନ୍ତୁ",
   "wrongQrCodeScanForAttendance": "ଏପରି ଲାଗୁଛି ଯେ ଆପଣ ଉପସ୍ଥିତି ପାଇଁ ଭୁଲ କ୍ୟୁ ଆର କୋଡ୍ ସ୍କାନ୍ କରିଛନ୍ତି। ଦୟାକରି  ସଠିକଟିକୁ ସ୍କାନ୍ କରନ୍ତୁ।",
   "newteamrequest": "ନୂଆ ଦଳ ଅନୁରୋଧ ",
-  "goback": "ଗୋ ବ୍ୟାକ",
+  "goback": "ପଛକୁ ଆସନ୍ତୁ ",
   "getReferralCode": {
     "enterCode": "କୋଡ ଭରନ୍ତୁ ",
     "enterReferralCode": "ରେଫରାଲ କୋଡ ଭରନ୍ତୁ",

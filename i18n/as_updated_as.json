@@ -19,7 +19,7 @@
   "somethingWentWrongMessage": "কিবা ভুল হৈছিল। অনুগ্ৰহ কৰি পিছত পুনৰ চেষ্টা কৰক।",
   "pleasetryagainlater": "অনুগ্ৰহ কৰি পাছলৈ পুনৰ চেষ্টা কৰক",
   "somethingwentwrong": "কিবা এটা ভুল হৈছে!",
-  "otpHasSentTo": "এটা অ’টিপি পঠিওৱা হৈছে",
+  "otpHasSentTo": "এটা অ’টিপি প্ৰেৰণ কৰা হৈছে",
   "otpHasSentToLogin": "এটা অ’টিপি পঠিওৱা হৈছে",
   "yourMobileNotSecure": "আপোনাৰ ম'বাইল সুৰক্ষিত নহয়!",
   "sparkleId": "স্পার্কল আইডি",
@@ -127,8 +127,8 @@
   "pleaseEnter12or13DigitCode": "অনুগ্ৰহ কৰি 12 বা 13 সংখ্যাৰ ক'ড দিব।",
   "pleaseEnter13DigitCode": "অনুগ্ৰহ কৰি 13 অংকৰ ক'ড দিব।",
   "weAreCapturingCodePleaseWait": "আমি ক'ডটো ধৰিবলৈ কৰিবলৈ চেষ্টা কৰিছো, অনুগ্ৰহ কৰি অপেক্ষা কৰক",
-  "scanQRCode": "কিউ.আৰ ক'ড স্কেন কৰক",
-  "wrongQrCodeScanForAttendance": "উপস্থিতিৰ বাবে ভুল কিউ.আৰ ক'ড স্কেন কৰা যেন লাগে। অনুগ্ৰহ কৰি শুদ্ধটো স্কেন কৰক।",
+  "scanQRCode": "QR ক'ড স্কেন কৰক",
+  "wrongQrCodeScanForAttendance": "উপস্থিতিৰ বাবে ভুল QR ক'ড স্কেন কৰা যেন লাগে। অনুগ্ৰহ কৰি শুদ্ধটো স্কেন কৰক।",
   "newteamrequest": "নতুন দলৰ অনুৰোধ",
   "goback": "উভতি যাওক",
   "getReferralCode": {
@@ -688,7 +688,7 @@
     "needhelp": "সহায়ৰ প্ৰয়োজন?",
     "submitIssues": "Submit your issues and get quick resolutions"
   },
-  "tdstext": "টি.ডি.এছ (উৎসত কৰ্তন কৰা কৰ)",
+  "tdstext": "TDS (উৎসত কৰ্তন কৰা কৰ)",
   "redemerrorpoint": "পইণ্ট ৰিডেম্পচন সফল নহ’ল। অনুগ্ৰহ কৰি পুনৰ চেষ্টা কৰক।",
   "redemerrorrupees": "টকাৰ ৰিডেম্পচন সফল নহ’ল। অনুগ্ৰহ কৰি পুনৰ চেষ্টা কৰক।",
   "removecontractor": "প্ৰাথমিক ঠিকাদাৰক আঁতৰাবলৈ আন এজন ঠিকাদাৰ যোগ কৰক।",

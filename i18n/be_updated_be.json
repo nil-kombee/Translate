@@ -20,7 +20,7 @@
   "pleasetryagainlater": "দয়া করে পরে আবার চেষ্টা করুন",
   "somethingwentwrong": "কিছু ভুল হয়েছে!",
   "otpHasSentTo": "একটি ওটিপি পাঠানো হয়েছে",
-  "otpHasSentToLogin": "একটি ওটিপি পাঠানো হয়েছে",
+  "otpHasSentToLogin": "এ একটি ওটিপি (OTP) পাঠানো হয়েছে",
   "yourMobileNotSecure": "আপনার মোবাইল সুরক্ষিত নয়!",
   "sparkleId": "স্পার্কেল আইডি",
   "opusId": "ওপাস আইডি",
@@ -127,8 +127,8 @@
   "pleaseEnter12or13DigitCode": "অনুগ্রহ করে একটা 12 বা 13 সংখ্যার কোড দিন৷",
   "pleaseEnter13DigitCode": "অনুগ্রহ করে একটা 13 সংখ্যার কোড দিন।",
   "weAreCapturingCodePleaseWait": "আমরা কোডটা ক্যাপচার করার চেষ্টা করছি, অনুগ্রহ করে অপেক্ষা করুন",
-  "scanQRCode": "কিউ.আর. কোডটা স্ক্যান করুন",
-  "wrongQrCodeScanForAttendance": "মনে হচ্ছে আপনি উপস্থিতির জন্য ভুল কিউ.আর. কোড স্ক্যান করেছেন। অনুগ্রহ করে সঠিক কিউ.আর. স্ক্যান করুন।",
+  "scanQRCode": "QR কোডটা স্ক্যান করুন",
+  "wrongQrCodeScanForAttendance": "মনে হচ্ছে আপনি উপস্থিতির জন্য ভুল QR কোড স্ক্যান করেছেন। অনুগ্রহ করে সঠিক QR স্ক্যান করুন।",
   "newteamrequest": "নতুন টিমের অনুরোধ",
   "goback": "ফিরে যান",
   "getReferralCode": {
@@ -688,7 +688,7 @@
     "needhelp": "সাহায্যের প্রয়োজন আছে?",
     "submitIssues": "Submit your issues and get quick resolutions"
   },
-  "tdstext": "টি.ডি.এস. (সোর্সের থেকে ট্যাক্স ডিডাকশন)",
+  "tdstext": "TDS (সোর্সের থেকে ট্যাক্স ডিডাকশন)",
   "redemerrorpoint": "পয়েন্ট রিডিম করা সফল হয়নি। অনুগ্রহ করে আবার চেষ্টা করুন।",
   "redemerrorrupees": "টাকা রিডিম করা সফল হয়নি। অনুগ্রহ করে আবার চেষ্টা করুন।",
   "removecontractor": "প্রাথমিক কন্ট্র্যাক্টরকে সরানোর জন্য অন্য কন্ট্র্যাক্টরকে যোগ করুন।",
