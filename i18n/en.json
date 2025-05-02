@@ -24,6 +24,7 @@
   "yourMobileNotSecure": "Your Mobile Not Secure!",
   "sparkleId": "Sparkle ID",
   "opusId": "Opus ID",
+  "architectId": "Architect ID",
   "copyId": "Copy ID",
   "loyalty": "Loyalty",
   "dob": "Date of birth",
@@ -72,6 +73,7 @@
   "badges": "Badges",
   "thisBadgeIsLocked": "This badge is locked",
   "youUnlockedThisBadgeOn": "You unlocked this badge on",
+  "locked": "This feature is currently locked",
   "okGotIt": "Ok got it",
   "expert": "Expert",
   "contractor": "Contractor",
@@ -351,11 +353,11 @@
     "lblGuideDescription": "Place QR code inside the frame",
     "lblScanFromGallery": "Scan from gallery",
     "lblOrText": "Or enter code manually",
-    "lblViewScanDetails": "View scan Details",
+    "lblViewScanDetails": "View Summary",
     "alltransaction": "View all transactions"
   },
   "scanDetailsScreen": {
-    "lblTitle": "Scan Details"
+    "lblTitle": "product summary"
   },
   "pointHistoryScreen": {
     "lblTitle": "Transaction History"
@@ -385,7 +387,7 @@
   },
   "profileScreen": {
     "lblTitle": "Profile",
-    "dob": "DOB",
+    "dob": "Date of birth",
     "communicationAddress": "Communication Address",
     "permanentAddress": "Permanent Address",
     "emailAddress": "Email Address",
@@ -445,7 +447,9 @@
     "selectPaymentMethodToReceive": "Select payment method to receive",
     "transactionid": "Transaction ID",
     "couponCode": "Coupon code",
-    "rupees": "Rupees"
+    "rupees": "Rupees",
+    "MinRedPoint": "For redeeming the first time, you need minimum",
+    "MinRedRupee": "For redeeming the first time, you need an amount of minimum Rs."
   },
   "howItWork": {
     "lblTitle": "How it works",
@@ -491,6 +495,7 @@
     "flashlightDescription": "Turn on the flashlight for better scanning in low light! Just tap the flashlight icon on the scanner screen."
   },
   "myTeams": {
+    "add": "Add ",
     "toYourDealersList": "to your Dealers list?",
     "isNowDealerList": "is now in your Dealers list",
     "requestSentTo": "Request sent to",
@@ -522,15 +527,15 @@
     "noteligibledescription": "Contact customer care for more information",
     "minimumreddemption": "Minimum redemption starts at 500 points",
     "eligible": "You are not eligible for this scan",
-    "eligibledescription": "Contact customer care for more information",
+    "eligibledescription": "For any issues, please raise a complaint by clicking below.",
     "greaterthenbalance": "Points entered are more than the balance available in the wallet",
     "greaterthenbalancerupees": "Amount entered are more than the balance available in the wallet",
     "enterpoints": "Enter the no. of points to redeem",
-    "minimumpoints": "The points are less than the minimum amount required for redeeming",
+    "minimumpoints": "The points are less than the minimum amount required for redemption",
     "minimumpointsrupees": "The amount entered is less than the minimum amount required for redemption",
-    "raiseanissue": "Raise a Complaint",
+    "raiseanissue": "Raise a complaint",
     "issueonscan": "Enter the code manually in the textbox. Need help? Contact ",
-    "Clickablelink": "Customer Care",
+    "Clickablelink": " Customer Care ",
     "notlink": " for further assistance.",
     "troublescan": "Trouble scanning?",
     "dbvalidation": "You have already scanned this QR code",
@@ -627,7 +632,7 @@
     "opushome": "Opus Home"
   },
   "quicklinks": {
-    "comingsoon": "Coming\nsoon!",
+    "comingsoon": "Coming\n Soon",
     "colorvisualizer": "Colour Visualizer",
     "traininglearning": "Training & Learning"
   },
@@ -666,7 +671,7 @@
     "openissues": "Open issues",
     "closedissues": "Closed issues",
     "raisetransactionissues": "Raise a Transaction Issue",
-    "raiseanissue": "Raise an complaint",
+    "raiseanissue": "Raise a complaint",
     "yourissue": "Tell us about your issue and we will help you fix it quickly.",
     "selecttransaction": "Select transaction",
     "pleasegivethedetail": "Please give us additional details",
@@ -687,7 +692,9 @@
     "type": "Type",
     "feedback": "Submit feedback",
     "pleaseSelectRating": "",
-    "needhelp": "Need Help?"
+    "needhelp": "Need Help?",
+    "submitIssues": "Submit your issues and get quick resolutions",
+    "uploadedimages": "Uploaded images"
   },
   "tdstext": "TDS (Tax Deducted at Source)",
   "redemerrorpoint": "Points redemption was unsuccessful. Please try again.",
@@ -713,7 +720,7 @@
     "type": "Type",
     "floorArea": "Floor Area",
     "address": "Address",
-    "warrantyRegistered": "Warranty Registered",
+    "warrantyRegistered": "Opus Assurance Status",
     "downloadPDF": "Download PDF",
     "ratings": "ratings"
   },
@@ -725,7 +732,7 @@
     "quickActions": "Quick actions",
     "estimateBudget": "Estimate Budget",
     "removeInPorfolio": "Remove in portfolio",
-    "warrantyRegistration": "Project Details",
+    "warrantyRegistration": "Opus Assurance",
     "projectName": "Project name",
     "customerName": "Customer name",
     "customerMobileNumber": "Customer’s mobile number",
@@ -748,7 +755,7 @@
     "createProject": "Create a project",
     "projectSearchText": "Name",
     "projectId": "Project ID",
-    "pleaseNote": "Please Note",
+    "pleaseNote": "Please Note:",
     "noteDescription": "That all your information will be shared with customer for verification and you have to get the otp from customer for verification",
     "customerConfirmation": "Customer's Confirmation",
     "createProject2": "Create Project",
@@ -772,7 +779,10 @@
     "to": "To",
     "addressLine1": "Address",
     "dateRange": "Date Range",
-    "CloseProjectValidation": "You can return here by clicking back and edit it anytime before closing the project."
+    "CloseProjectValidation": "You can return here by clicking back and edit it anytime before closing the project.",
+    "addprojectDetails": "Add Project Details",
+    "Success": "Success",
+    "LeadConvertedSuccessfully": "Lead converted successfully"
   },
   "mediaSelection": {
     "Uploadfromgallery": "Upload from gallery",
@@ -788,25 +798,27 @@
   "save&Continue": "Save & Continue",
   "attention": "Attention",
   "warranty": {
-    "warranty": "Warranty",
-    "warrantyChecklist": "Warranty checklist",
+    "warranty": "Opus Assurance",
+    "warrantyChecklist": "Opus Assurance Checklist",
+    "projectChecklist": "Project Details",
     "customerDetails": "Customer Details",
     "siteDetails": "Project Details",
     "leakageOnSite": "Is there any active leakage on project?",
     "paintingType": "Is there any moisture in the house on any walls?",
     "oldPaintScrapped": "Are there any cracks on any of the walls?",
     "puttyUsed": "Putty used",
-    "siteStartDate": "Project verification date",
+    "siteStartDate": "Project start date",
     "siteEndDate": "Expected End Date",
-    "sitePreparationChecklist": "Warranty Preparation Checklist",
+    "warrantyPreparationChecklist": "Opus Assurance Preparation Checklist",
+    "sitePreparationChecklist": "Project Preparation Checklist",
     "totalPaintableAreaInterior": "Total paintable area Interior(sq ft)",
     "totalPaintableAreaExterior": "Total paintable area Exterior(sq ft)",
     "totalPaintableAreaWaterProofing": "Total paintable area Water Proofing(sq ft)",
     "totalPaintableAreaWoodFinishes": "Total paintable area Wood Finishes(sq ft)",
     "totalPaintableArea": "Total paintable area(Interior & Exterior)(sq ft)",
-    "plzEnterSiteStartDate": "Please enter project verification date",
+    "plzEnterSiteStartDate": "Please enter Opus Assurance verification date",
     "plzEnterSiteEndDate": "Please enter expected end date",
-    "plzEnterSitePreparationChecklist": "Please enter project preparation checklist",
+    "plzEnterSitePreparationChecklist": "Please enter Opus Assurance preparation checklist",
     "plzEnterTotalPaintableAreaInterior": "Please enter total paintable area interior",
     "plzEnterTotalPaintableAreaExterior": "Please enter total paintable area exterior",
     "plzEnterTotalPaintableAreaWaterProofing": "Please enter total paintable area water proofing",
@@ -821,17 +833,19 @@
     "addFromTransactionHistory": "Add from transaction history",
     "productAddedSuccessfully": "Details saved successfully",
     "siteClosureDateAndTime": "Project closure date",
-    "comprehensiveWarrantyRegistration": "Comprehensive Warranty Registration",
-    "warrantyIssuance": "Warranty Issuance",
+    "comprehensiveWarrantyRegistration": "Birla Opus Assurance Registration",
+    "comprehensiveWarrantyRegistrationdesc": "You are registering for Birla Opus Assurance. Would you like to continue?",
+    "warrantyIssuance": "Opus Assurance Issurance",
+    "comprehensiveWarrantyText": "You are registering for a comprehensive Opus Assurance. Please note that all the information entered by you will be communicated to the customer. Would you like to continue?",
     "labourCharges": "Labour charges",
     "backToHome": "Back to Home",
     "summary": "Summary",
     "warrantyChecklistEditableDescription": "This checklist is editable. You can come back here by clicking the 'Previous' button and edit it anytime before submitting.",
     "editableDescription": "You can come back here by clicking the 'Previous' button and edit it anytime before submitting.",
-    "warrantystatus": "Warranty status",
+    "warrantystatus": "Opus Assurance status",
     "viewtaggedproducts": "View Tagged Products",
     "view": "View",
-    "warrantyOTPverificationInstructionMessage": "please enter the OTP sent to the customer for closing the project",
+    "warrantyOTPverificationInstructionMessage": "please enter the OTP sent to the customer for closing the Opus Assurance",
     "certifiedContractorsOnly": "Certified Contractors Only",
     "certifiedWarningDescription": "this feature is accessible to only Udaan certified contractors.",
     "active": "Active",
@@ -841,10 +855,17 @@
     "paintablescannedpercentage": "Paintable scanned percentage",
     "waterproofingscannedpercentage": "Waterproofing scanned percentage",
     "selectProduct": "Please select minimum one product",
-    "addProductDetail": "Please add at least one product to proceed with the project process",
-    "leackageValidation": "Please select if there is any active leakage in the project",
+    "addProductDetail": "Please add at least one product to proceed with the Opus Assurance process",
+    "leackageValidation": "Please select if there is any active leakage in the Opus Assurance",
     "moistureValidation": "Please select if there is any moisture on the walls of the house",
-    "cracksValidation": "Please select if there are any cracks on the walls"
+    "cracksValidation": "Please select if there are any cracks on the walls",
+    "projecttaggederrors": "The product was scanned earlier than the allowed timeframe for tagging to the Opus Assurance.",
+    "viewsummarytaggedproject": "Tap 'View Summary' for more details.",
+    "paintablearea": "What is Paintable area?",
+    "projectClose": "Project Closed Successfully!",
+    "projectCloseText": "All project details have been archived. You can view the archived projects anytime.",
+    "ProductDeletedSuccessfully": "Product Deleted Successfully",
+    "maxValueError": "Max value should not be more than 1000000"
   },
   "mobileNumber": "Mobile Number",
   "name": "Name",
@@ -852,7 +873,7 @@
   "previous": "Previous",
   "OTPVerification": "OTP Verification",
   "pleaseEnterValidPincode": "Please enter valid pincode",
-  "closeProject": "Close project",
+  "closeProject": "Close Project",
   "verifyyourPANdetails": "You can now proceed to verify your PAN details",
   "CreateProjectValidation": {
     "plzEnterProjectName": "Please enter project name",
@@ -868,5 +889,6 @@
     "plzpincode": "Please enter pin code",
     "AllField": "Please fill out the required field"
   },
-  "singleScan": "Cashtokens cannot be linked to the project."
+  "singleScan": "Cashtokens cannot be linked to the project.",
+  "pincodeerror": "Please enable location services to fetch the pincode."
 }

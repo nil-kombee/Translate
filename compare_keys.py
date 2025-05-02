@@ -1,43 +1,20 @@
 import json
+import os
 
 def extract_keys(data, parent_key=""):
-    """
-    Recursively extract all keys from a JSON object.
-
-    Args:
-        data (dict or list): The JSON object (can be a dictionary or a list).
-        parent_key (str): The base key to prepend for nested keys.
-
-    Returns:
-        dict: A dictionary of keys and their corresponding values.
-    """
     keys = {}
-
     if isinstance(data, dict):
         for key, value in data.items():
             full_key = f"{parent_key}.{key}" if parent_key else key
             keys[full_key] = value if not isinstance(value, (dict, list)) else None
             keys.update(extract_keys(value, full_key))
-
     elif isinstance(data, list):
         for index, item in enumerate(data):
             full_key = f"{parent_key}[{index}]" if parent_key else f"[{index}]"
             keys.update(extract_keys(item, full_key))
-
     return keys
 
 def add_missing_keys(target, source, log=[]):
-    """
-    Add missing key-value pairs from the source JSON to the target JSON.
-
-    Args:
-        target (dict or list): Target JSON object to update.
-        source (dict or list): Source JSON object to take values from.
-        log (list): List of log messages about added keys.
-
-    Returns:
-        dict: Updated target JSON object.
-    """
     if isinstance(source, dict):
         for key, value in source.items():
             if key not in target:
@@ -59,51 +36,46 @@ def add_missing_keys(target, source, log=[]):
                 target[index] = add_missing_keys(target[index], item, log)
     return target
 
-def compare_and_update_keys(file1_path, file2_path):
-    """
-    Compare keys of two JSON files and update the second file with missing keys from the first file.
+def compare_and_update_all_keys(source_file_path, directory_path):
+    # Load the source JSON (e.g., en.json)
+    with open(source_file_path, 'r', encoding='utf-8') as src_file:
+        source_json = json.load(src_file)
+        source_keys = extract_keys(source_json)
 
-    Args:
-        file1_path (str): Path to the first JSON file (source).
-        file2_path (str): Path to the second JSON file (target).
-    """
-    # Load JSON files
-    with open(file1_path, 'r', encoding='utf-8') as file1, open(file2_path, 'r', encoding='utf-8') as file2:
-        json1 = json.load(file1)
-        json2 = json.load(file2)
+    # Iterate through all .json files in the directory
+    for filename in os.listdir(directory_path):
+        if filename.endswith(".json") and filename != os.path.basename(source_file_path):
+            target_file_path = os.path.join(directory_path, filename)
+            with open(target_file_path, 'r', encoding='utf-8') as tgt_file:
+                target_json = json.load(tgt_file)
+                target_keys = extract_keys(target_json)
 
-    # Extract keys
-    keys1 = extract_keys(json1)
-    keys2 = extract_keys(json2)
+            only_in_source = set(source_keys.keys()) - set(target_keys.keys())
+            only_in_target = set(target_keys.keys()) - set(source_keys.keys())
 
-    # Identify missing keys
-    only_in_file1 = set(keys1.keys()) - set(keys2.keys())
-    print("Keys present in file 1 but not in file 2:")
-    for key in sorted(only_in_file1):
-        print(key)
+            print(f"\n--- Updating {filename} ---")
+            print("Keys missing in target:")
+            for key in sorted(only_in_source):
+                print(key)
 
-    print("\nKeys present in file 2 but not in file 1:")
-    only_in_file2 = set(keys2.keys()) - set(keys1.keys())
-    for key in sorted(only_in_file2):
-        print(key)
+            print("Keys only in target:")
+            for key in sorted(only_in_target):
+                print(key)
 
-    # Add missing keys to JSON 2
-    log = []
-    updated_json2 = add_missing_keys(json2, json1, log)
+            # Add missing keys
+            log = []
+            updated_json = add_missing_keys(target_json, source_json, log)
 
-    # Overwrite the second JSON file with the updated content
-    with open(file2_path, 'w', encoding='utf-8') as file2:
-        json.dump(updated_json2, file2, indent=4, ensure_ascii=False)
+            # Write back updated JSON
+            with open(target_file_path, 'w', encoding='utf-8') as tgt_file:
+                json.dump(updated_json, tgt_file, indent=4, ensure_ascii=False)
 
-    # Log added keys in the terminal
-    print("\nKeys added to File 2:")
-    for index, entry in enumerate(log, start=1):
-        print(f"{index}. {entry}")
+            print("Keys added:")
+            for index, entry in enumerate(log, 1):
+                print(f"{index}. {entry}")
+            print(f"✅ Updated: {target_file_path}")
 
-    print(f"\nUpdated JSON file saved at: {file2_path}")
-
-# Example Usage
-file1_path = '/Users/imac/Documents/Nil/Translate/i18n/en.json'  # Path to the first JSON file
-file2_path = '/Users/imac/Documents/Nil/Translate/i18n/te.json'  # Path to the second JSON file
-
-compare_and_update_keys(file1_path, file2_path)
+# Example usage
+source_file = 'S:\kombee\Translate\i18n\en.json'
+directory = os.path.dirname(source_file)
+compare_and_update_all_keys(source_file, directory)

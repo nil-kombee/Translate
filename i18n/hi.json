@@ -444,7 +444,9 @@
         "selectPaymentMethodToReceive": "प्राप्त करने के लिए पेमेंट का तरीका चुनें",
         "transactionid": "ट्रांज़ैक्शन आई.डी.",
         "couponCode": "कूपन कोड",
-        "rupees": "रुपये"
+        "rupees": "रुपये",
+        "MinRedPoint": "For redeeming the first time, you need minimum",
+        "MinRedRupee": "For redeeming the first time, you need an amount of minimum Rs."
     },
     "howItWork": {
         "lblTitle": "यह किस तरह से काम करता है?",
@@ -495,7 +497,8 @@
         "requestSentTo": "_को अनुरोध भेजा गया",
         "newTeamMemberAdded": "नया टीम मेंबर जोड़ा गया।",
         "searchmember": "सदस्य खोजें",
-        "searchdealer": "डीलर खोजें"
+        "searchdealer": "डीलर खोजें",
+        "add": "Add "
     },
     "addpaymentmethod": {
         "addpaymentmethod": "भुगतान विधि जोड़ें",
@@ -689,7 +692,9 @@
         "type": "प्रकार",
         "feedback": "प्रतिक्रिया सबमिट करें",
         "pleaseSelectRating": "",
-        "needhelp": "मदद की ज़रूरत है?"
+        "needhelp": "मदद की ज़रूरत है?",
+        "submitIssues": "Submit your issues and get quick resolutions",
+        "uploadedimages": "Uploaded images"
     },
     "in": "में",
     "sec": "सेकंड",
@@ -770,7 +775,10 @@
         "interiorAndExterior": "आंतरिक एवं बाह्य",
         "addressLine1": "पता",
         "dateRange": "तिथि सीमा",
-        "CloseProjectValidation": "You can return here by clicking back and edit it anytime before closing the project."
+        "CloseProjectValidation": "You can return here by clicking back and edit it anytime before closing the project.",
+        "Success": "Success",
+        "LeadConvertedSuccessfully": "Lead converted successfully",
+        "addprojectDetails": "Add Project Details"
     },
     "mediaSelection": {
         "Uploadfromgallery": "गैलरी से अपलोड करें",
@@ -842,7 +850,18 @@
         "addProductDetail": "कृपया परियोजना प्रक्रिया को आगे बढ़ाने के लिए कम से कम एक उत्पाद जोड़ें।",
         "leackageValidation": "Please select if there is any active leakage in the project",
         "moistureValidation": "Please select if there is any moisture on the walls of the house",
-        "cracksValidation": "Please select if there are any cracks on the walls"
+        "cracksValidation": "Please select if there are any cracks on the walls",
+        "comprehensiveWarrantyText": "You are registering for a comprehensive warranty. Please note that all the information entered by you will be communicated to the customer. Would you like to continue?",
+        "projectClose": "Project Closed Successfully!",
+        "projectCloseText": "All project details have been archived. You can view the archived projects anytime.",
+        "ProductDeletedSuccessfully": "Product Deleted Successfully",
+        "projectChecklist": "Project Details",
+        "warrantyPreparationChecklist": "Opus Assurance Preparation Checklist",
+        "comprehensiveWarrantyRegistrationdesc": "You are registering for Birla Opus Assurance. Would you like to continue?",
+        "projecttaggederrors": "The product was scanned earlier than the allowed timeframe for tagging to the Opus Assurance.",
+        "viewsummarytaggedproject": "Tap 'View Summary' for more details.",
+        "paintablearea": "What is Paintable area?",
+        "maxValueError": "Max value should not be more than 1000000"
     },
     "mobileNumber": "मोबाइल नंबर",
     "name": "नाम",
@@ -868,5 +887,8 @@
         "AllField": "Please fill out the required field"
     },
     "singleScan": "Cashtokens cannot be linked to the project.",
-    "sendOtp": "Send OTP"
+    "sendOtp": "Send OTP",
+    "architectId": "Architect ID",
+    "locked": "This feature is currently locked",
+    "pincodeerror": "Please enable location services to fetch the pincode."
 }
