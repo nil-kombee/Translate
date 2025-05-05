@@ -20,7 +20,7 @@
   "pleasetryagainlater": "దయచేసి తరువాత ప్రయత్నించండి",
   "somethingwentwrong": "ఏదో తప్పు జరిగింది!",
   "otpHasSentTo": "ఒక OTP పంపబడింది",
-  "otpHasSentToLogin": " ఒక OTP పంపబడింది",
+  "otpHasSentToLogin": " ఒక ఓ . టి. పి పంపబడింది",
   "yourMobileNotSecure": "మీ మొబైల్ సురక్షితం కాదు!",
   "sparkleId": "స్పార్కుల్ ఐడి",
   "opusId": "ఓపస్ ఐడి",
@@ -123,7 +123,7 @@
   "comingsoon": "త్వరలో వస్తోంది",
   "codeScanned": "కోడ్ స్కాన్ చేయబడింది",
   "codeScannedConfirmText": "కోడ్ సరిగ్గా స్కాన్ చేయకపోతే, మీరు దాన్ని సవరించవచ్చు",
-  "confirm": "నిర్ధారించండి / కన్ఫర్మ్ చేయండి",
+  "confirm": "కన్ఫర్మ్ చేయండి",
   "retry": "మళ్లీ ప్రయత్నించండి",
   "pleaseEnter12or13DigitCode": "దయచేసి 12 లేదా 13 అంకెల కోడ్‌ని నమోదు చేయండి.",
   "pleaseEnter13DigitCode": "దయచేసి 13 అంకెల కోడ్‌ని నమోదు చేయండి.",
@@ -131,7 +131,7 @@
   "scanQRCode": "క్యూ.ఆర్. కోడ్‌ని స్కాన్ చేయండి",
   "wrongQrCodeScanForAttendance": "హాజరు(అటండెన్స్) కోసం మీరు తప్పు QR(క్యూ.ఆర్.) కోడ్‌ని స్కాన్ చేసినట్లు కనిపిస్తోంది. దయచేసి సరైనదాన్ని స్కాన్ చేయండి.",
   "newteamrequest": "కొత్త బృందం అభ్యర్థన",
-  "goback": "వెనుకకు వెళ్ళండి",
+  "goback": "వెనక్కి వెళ్లండి",
   "getReferralCode": {
     "enterCode": "కోడ్‌ని నమోదు చేయండి",
     "enterReferralCode": "రెఫరల్ కోడ్‌ని నమోదు చేయండి",
@@ -269,7 +269,7 @@
       "required": "దయచేసి పాన్ నంబర్‌ని నమోదు చేయండి"
     },
     "ifscdetails": {
-      "valid": "దయచేసి సరైన పాన్ నంబర్‌ని నమోదు చేయండి",
+      "valid": "దయచేసి చెల్లుబాటు అయ్యే IFSC నంబర్‌ను నమోదు చేయండి",
       "required": "ఐ ఎఫ్ ఎస్ సి కోడ్ అవసరం",
       "notmatch": "అకౌంటు సంఖ్య సరిపోలడం లేదు"
     },
@@ -292,7 +292,7 @@
     "lblBankAccountNumber": "బ్యాంక్ అకౌంటు నంబర్",
     "lblReBankAccountNumber": "బ్యాంక్ అకౌంటు నంబర్‌ని మళ్లీ నమోదు చేయండి",
     "lblIFSCCode": "ఐ ఎఫ్ ఎస్ సి కోడ్",
-    "lblDescription": "మీ బ్యాంక్ అకౌంటుని వెరిఫై చేయడానికి, మేము మీ అకౌంటుకు â‚¹1ని క్రెడిట్ చేస్తాము",
+    "lblDescription": "మీ బ్యాంక్ ఖాతాను ధృవీకరించడానికి, మేము మీ ఖాతాకు ₹1 జమ చేస్తాము.",
     "lblCheckDescription": "నేను ఈ వెరిఫికేషన్ ప్రాసెస్ ని సమ్మతిస్తున్నాను"
   },
   "confirmBankDetailsScreen": {
@@ -351,11 +351,11 @@
     "lblGuideDescription": "ఫ్రేమ్ లోపల క్యూ ఆర్ కోడ్ ని ఉంచండి",
     "lblScanFromGallery": "గ్యాలరీ నుండి స్కాన్ చేయండి",
     "lblOrText": "లేదా మాన్యువల్‌గా కోడ్‌ని నమోదు చేయండి",
-    "lblViewScanDetails": "స్కాన్ వివరాలను చూడండి",
+    "lblViewScanDetails": "సారాంశాన్ని వీక్షించండి",
     "alltransaction": "అన్ని ట్రాన్సాక్షన్ లను చూడండి"
   },
   "scanDetailsScreen": {
-    "lblTitle": "స్కాన్ వివరాలు"
+    "lblTitle": "ఉత్పత్తి సారాంశం"
   },
   "pointHistoryScreen": {
     "lblTitle": "ట్రాన్సాక్షన్ హిస్టరీ"
@@ -410,7 +410,7 @@
     "addNewBank": "కొత్త బ్యాంక్ అకౌంటును జోడించండి",
     "accountDeleted": "అకౌంటు డిలీట్ చేయబడింది",
     "deleteAccountConfirmationMsg": "మీ అకౌంటును డిలీట్ చేస్తున్నారా?",
-    "deleteAccountWarnMsg": "",
+    "deleteAccountWarnMsg": "అకౌంటు తొలగించబడింది",
     "deleteBankAccountConfirmationMsg": "మీరు ఖచ్చితంగా ఈ బ్యాంక్ అకౌంటును డిలీట్ చేయాలనుకుంటున్నారా?",
     "deleteUpiIdAccountConfirmationMsg": "మీరు ఖచ్చితంగా ఈ యుపిఐ ఐడిని డిలీట్ చేయాలనుకుంటున్నారా?",
     "otpInputDescription": "దయచేసి ఈ చర్యను పూర్తి చేయడానికి మీ ఫోన్ నంబర్‌కు పంపబడిన 6 అంకెల ఓటిపిని నమోదు చేయండి",
@@ -445,7 +445,7 @@
     "selectPaymentMethodToReceive": "స్వీకరించడానికి పేమెంట్ విధానాన్ని ఎంచుకోండి",
     "transactionid": "ట్రాన్సాక్షన్ ఐడి",
     "couponCode": "కూపన్ కోడ్",
-    "rupees": "రూపాయలు",
+    "rupees": "నగదు",
     "MinRedPoint": "For redeeming the first time, you need minimum",
     "MinRedRupee": "For redeeming the first time, you need an amount of minimum Rs."
   },
@@ -488,18 +488,18 @@
     "galleryScan": "గ్యాలరీ స్కాన్",
     "galleryDescription": "మీ గ్యాలరీ నుండి QR(క్యూ.ఆర్.) కోడ్ ఇమేజ్ ని ఎంచుకోండి",
     "manualEntry": "మాన్యువల్ ఎంట్రీ",
-    "manualEntryDescription": "ఆన్-స్క్రీన్ కీబోర్డ్‌ని ఉపయోగించి కోడ్‌ని టైప్ చేయండి./స్క్రీన్ పై ఉన్న కీబోర్డ్‌ని ఉపయోగించి కోడ్‌ని టైప్ చేయండి.",
+    "manualEntryDescription": "స్క్రీన్ పై ఉన్న కీబోర్డ్‌ని ఉపయోగించి కోడ్‌ని టైప్ చేయండి.",
     "flashlight": "ఫ్లాష్‌లైట్‌",
     "flashlightDescription": "తక్కువ వెలుతురులో మెరుగైన స్కానింగ్ చేయడానికి ఫ్లాష్‌లైట్‌ని ఆన్ చేయండి! స్కానర్ స్క్రీన్‌పై ఫ్లాష్‌లైట్ ఐకాన్ ని ట్యాప్ చేయండి."
   },
   "myTeams": {
     "toYourDealersList": "మీ డీలర్ల జాబితాకు?",
-    "isNowDealerList": "ఇప్పుడు మీ డీలర్ల జాబితాలో ఉంది",
+    "isNowDealerList": "ఇప్పుడు మీ డీలర్ల జాబితాలో",
     "requestSentTo": "అభ్యర్థన పంపబడింది",
     "newTeamMemberAdded": "కొత్త టీమ్ మెంబర్ జోడించబడ్డారు.",
     "searchmember": "సభ్యులను శోధించండి",
     "searchdealer": "డీలర్లను శోధించండి",
-    "add": "Add "
+    "add": "జోడించండి"
   },
   "addpaymentmethod": {
     "addpaymentmethod": "పేమెంట్ విధానాన్ని జోడించండి",
@@ -531,9 +531,9 @@
     "enterpoints": "రీడీమ్ చేసుకోవడానికి పాయింట్ల సంఖ్యను నమోదు చేయండి",
     "minimumpoints": "రిడీమ్ చేయడానికి అవసరమైన కనీస మొత్తం కంటే పాయింట్లు తక్కువగా ఉన్నాయి",
     "minimumpointsrupees": "రిడీమ్ చేయడానికి కనిష్ట మొత్తం ఎంటర్ చేయండి",
-    "raiseanissue": "ఒక సమస్యను ఫిర్యాదు చేయండి",
+    "raiseanissue": "ఫిర్యాదును లేవనెత్తండి",
     "issueonscan": "టెక్స్ట్‌బాక్స్‌లో మాన్యువల్‌గా కోడ్‌ని నమోదు చేయండి. సహాయం కావాలా? సంప్రదించండి",
-    "Clickablelink": " కస్టమర్ కేర్ ",
+    "Clickablelink": "కస్టమర్ కేర్",
     "notlink": "తదుపరి సహాయం కోసం.",
     "troublescan": "స్కానింగ్ చేయడంలో సమస్యని ఎదుర్కొంటున్నారా?",
     "dbvalidation": "మీరు ఇప్పటికే ఈ QR(క్యూ.ఆర్.) కోడ్‌ని స్కాన్ చేసారు",
@@ -544,7 +544,7 @@
     "notbirlaopusproduct": "లాయల్టీ పాయింట్లను సంపాదించడానికి దయచేసి బిర్లా ఓపస్ ప్రోడక్ట్ ని స్కాన్ చేయండి"
   },
   "Referal": {
-    "title": "మీ తోటి పెయింట్ నిపుణులను చూడండి",
+    "title": "మీ తోటి పెయింట్ నిపుణులను సూచించండి",
     "copycode": "మీ కోడ్‌ని కాపీ చేయండి",
     "invite": "ఆహ్వానించండి",
     "viewdetails": "వివరాలను చూడండి",
@@ -560,9 +560,9 @@
     "successcountmessage": "అద్భుతం! మీరు క్యూఆర్ కోడ్‌ని స్కాన్ చేసారు",
     "unsuccessfulscan": "విజయవంతం కాని స్కాన్‌లను తెలుసుకోవడానికి స్కాన్ వివరాలను చూడండి",
     "successscan": "ఈ రోజు మిగిలిన విజయవంతమైన స్కాన్‌లు",
-    "noactivity": "Hi, the QR code scanner couldn’t capture any codes since the past 180 seconds. You will be re-directed to Home screen.",
-    "noactivityheader": "No activity detected",
-    "blocked": "Blocked"
+    "noactivity": "నమస్కారం, గత 180 సెకన్ల నుండి QR కోడ్ స్కానర్ ఏ కోడ్‌లని క్యాప్చర్ చేయలేకపోయింది. మీరు హోమ్ స్క్రీన్‌కి తీసుకెళ్లబడతారు.",
+    "noactivityheader": "ఏ యాక్టివిటీ కనుగొనబడలేదు",
+    "blocked": "బ్లాక్ చేయబడింది"
   },
   "permission": {
     "locationpermission": "లొకేషన్ కి అనుమతి",
@@ -631,8 +631,8 @@
   },
   "quicklinks": {
     "comingsoon": "త్వరలో\n రావడం",
-    "colorvisualizer": "రంగు దృశ్యమాలీక",
-    "traininglearning": "శిక్షణ & అభ్యసన"
+    "colorvisualizer": "కలర్ విజువలైజర్",
+    "traininglearning": "శిక్షణ & అభ్యాసం"
   },
   "redempoints": "పాయింట్లను రీడీమ్ చేయండి",
   "redemnow": "ఇప్పుడే రీడీమ్ చేయండి",
@@ -668,7 +668,7 @@
     "openissues": "బహిరంగ సమస్యలు",
     "closedissues": "మూసివేయబడిన సమస్యలు",
     "raisetransactionissues": "లావాదేవీ సమస్యను ఫిర్యాదు చేయండి",
-    "raiseanissue": "ఒక సమస్యను నివేదించండి",
+    "raiseanissue": "ఫిర్యాదును లేవనెత్తండి",
     "yourissue": "మీ సమస్య గురించి మాకు చెప్పండి. దీన్ని త్వరగా పరిష్కరించడానికి మేము మీకు సహాయం చేయడానికి ప్రయత్నిస్తాము.",
     "selecttransaction": "సమస్యను రిజిస్టర్ చేయడానికి ట్రాన్సాక్షన్ ని ఎంచుకోండి",
     "pleasegivethedetail": "దయచేసి మాకు అదనపు వివరాలను అందించండి",
@@ -695,10 +695,10 @@
   },
   "tdstext": "TDS(టి.డి.ఎస్.) (వనరు వద్ద పన్ను మినహాయించబడింది)",
   "redemerrorpoint": "పాయింట్స్ రీడెంప్షన్ చేయడంలో విఫలమైంది. దయచేసి మళ్లీ ప్రయత్నించండి.",
-  "redemerrorrupees": "రూపాయి రీడెంప్షన్ చేయడంలో విఫలమైంది. దయచేసి మళ్లీ ప్రయత్నించండి.",
+  "redemerrorrupees": "నగదు రీడెంప్షన్ చేయడంలో విఫలమైంది. దయచేసి మళ్లీ ప్రయత్నించండి.",
   "removecontractor": "ప్రాథమిక కాంట్రాక్టర్‌ని తొలగించడానికి మరొక కాంట్రాక్టర్‌ని జోడించండి.",
   "in": "దీనిలో",
-  "sec": "సెకను/క్షణం",
+  "sec": "క్షణం",
   "myProject": {
     "nameOrIdOrNumber": "పేరు",
     "projects": "ప్రాజెక్టులు",
@@ -728,7 +728,7 @@
     "quickActions": "క్విక్ యాక్షన్స్",
     "estimateBudget": "అంచనా బడ్జెట్",
     "removeInPorfolio": "పోర్ట్‌ఫోలియో నుండి తీసివేయండి",
-    "warrantyRegistration": "ప్రాజెక్ట్ వివరాలు",
+    "warrantyRegistration": "వారంటీ",
     "projectName": "ప్రాజెక్ట్ పేరు",
     "customerName": "ఖాతాదారుని పేరు",
     "customerMobileNumber": "ఖాతాదారుని మొబైల్ నంబర్",
@@ -738,7 +738,7 @@
     "enterPincode": "ప్రాజెక్ట్ లొకేషన్ యొక్క పిన్‌కోడ్‌ను నమోదు చేయండి",
     "enterPincodeDescription": "దయచేసి మీరు ప్రాజెక్ట్ లొకేషన్ నుండి అదే అప్‌డేట్ చేస్తున్నారని నిర్ధారించుకోండి",
     "isArchitectInvolved": "వాస్తుశిల్పి ప్రమేయం ఉందా?",
-    "leadType": "లీడ్ రకం",
+    "leadType": "ఇంటి రకం",
     "requirement": "అవసరం",
     "plzEnterNoOfRooms": "దయచేసి మొత్తం గదుల సంఖ్యను నమోదు చేయండి",
     "plzEnterAddress1": "దయచేసి చిరునామా లైన్ 1ని నమోదు చేయండి",
@@ -749,10 +749,10 @@
     "tagToAProject": "ప్రాజెక్ట్‌కి ట్యాగ్ చేయండి",
     "selectProject": "ప్రాజెక్ట్‌ని ఎంచుకోండి",
     "createProject": "ప్రాజెక్ట్‌ను రూపొందించండి",
-    "projectSearchText": "పేరు, ఐడి, ఫోన్ నంబర్",
+    "projectSearchText": "పేరు",
     "projectId": "ప్రాజెక్ట్ ఐడి",
     "pleaseNote": "దయచేసి గమనించండి:",
-    "noteDescription": "ప్రాజెక్ట్‌ కోసం మీరు సమర్పించిన మొత్తం సమాచారం ధృవీకరణ కోసం ఖాతాదారునితో భాగస్వామ్యం చేయబడుతుంది. దీన్ని ధృవీకరించడం కోసం, ఖాతాదారు ఓటిపిని పొందుతారు మరియు ప్రాజెక్ట్‌ను రూపొందించడానికి ఆ ఓటిపిని అందించాలి.",
+    "noteDescription": "మీ సమాచారం అంతా ధృవీకరణ కోసం కస్టమర్‌తో పంచుకోబడుతుంది మరియు ధృవీకరణ కోసం మీరు కస్టమర్ నుండి OTP పొందాలి.",
     "customerConfirmation": "ఖాతాదారుని ద్వారా ప్రాజెక్ట్ ధృవీకరణ",
     "createProject2": "ప్రాజెక్ట్ సృష్టించండి",
     "projectStatus": "ప్రాజెక్ట్ స్టేటస్",
@@ -776,9 +776,9 @@
     "interiorAndExterior": "ఇంటీరియర్ & ఎక్స్‌టీరియర్",
     "addressLine1": "చిరునామా",
     "dateRange": "తేదీ పరిధి",
-    "CloseProjectValidation": "You can return here by clicking back and edit it anytime before closing the project.",
-    "Success": "Success",
-    "LeadConvertedSuccessfully": "Lead converted successfully",
+    "CloseProjectValidation": "మీరు ఇక్కడికి తిరిగి వచ్చి ప్రాజెక్ట్‌ను మూసివేసే ముందు ఏ సమయంలోనైనా 'బ్యాక్' ని క్లిక్ చేయడం ద్వారా దాన్ని ఎడిట్ చేయవచ్చు.",
+    "LeadConvertedSuccessfully": "లీడ్ విజయవంతంగా మార్చబడింది",
+    "Success": "విజయం",
     "addprojectDetails": "Add Project Details"
   },
   "mediaSelection": {
@@ -795,8 +795,8 @@
   "save&Continue": "సేవ్ చేసి కొనసాగించండి",
   "attention": "శ్రద్ధ",
   "warranty": {
-    "warranty": "ప్రాజెక్ట్",
-    "warrantyChecklist": "ప్రాజెక్ట్ చెక్‌లిస్ట్",
+    "warranty": "వారంటీ",
+    "warrantyChecklist": "వారంటీ చెక్‌లిస్ట్",
     "customerDetails": "ఖాతాదారుని వివరాలు",
     "siteDetails": "ప్రాజెక్ట్ వివరాలు",
     "leakageOnSite": "సైట్‌లో ఇప్పుడు ఏదైనా లీకేజీ ఉందా?",
@@ -805,15 +805,15 @@
     "puttyUsed": "పట్టీ ఉపయోగించబడింది",
     "siteStartDate": "సైట్ ప్రారంభ తేదీ",
     "siteEndDate": "సైట్ ముగింపు తేదీ",
-    "sitePreparationChecklist": "సమగ్ర ప్రాజెక్ట్ నమోదు",
+    "sitePreparationChecklist": "ప్రాజెక్ట్ తయారీ చెక్‌లిస్ట్",
     "totalPaintableAreaInterior": "లోపలి గోడలకి పెయింటింగ్ చేయదగిన ఏరియా (చదరపు అడుగులలో)",
     "totalPaintableAreaExterior": "బాహ్య గోడలకి పెయింటింగ్ చేయదగిన ఏరియా (చదరపు అడుగులలో)",
     "totalPaintableAreaWaterProofing": "వాటర్ ప్రూఫింగ్ చేయడానికి పెయింటింగ్ చేయదగిన ఏరియా(చదరపు అడుగులలో)",
     "totalPaintableAreaWoodFinishes": "వుడ్ ఫినిషింగ్ ని అప్లై చేయడానికి పెయింట్ చేయదగిన ఏరియా (చదరపు అడుగులలో)",
     "totalPaintableArea": "మొత్తం పెయింట్ చేయదగిన ప్రాంతం (ఇంటీరియర్ మరియు ఎక్స్టీరియర్/లోపల మరియు బయట)(చదరపు అడుగులు)",
-    "plzEnterSiteStartDate": "దయచేసి సైట్ ప్రారంభ తేదీని నమోదు చేయండి",
+    "plzEnterSiteStartDate": "దయచేసి వారంటీ ధృవీకరణ తేదీని నమోదు చేయండి",
     "plzEnterSiteEndDate": "దయచేసి సైట్ ముగింపు తేదీ నమోదు చేయండి",
-    "plzEnterSitePreparationChecklist": "దయచేసి పూర్తి సైట్ తయారీ చెక్‌లిస్ట్‌ను పూరించండి",
+    "plzEnterSitePreparationChecklist": "దయచేసి వారంటీ తయారీ చెక్‌లిస్ట్‌ను నమోదు చేయండి.",
     "plzEnterTotalPaintableAreaInterior": "దయచేసి లోపలి గోడల కోసం పెయింటింగ్ చేయదగిన మొత్తం ప్రాంతాన్ని నమోదు చేయండి (చదరపు అడుగులలో)",
     "plzEnterTotalPaintableAreaExterior": "దయచేసి బాహ్య గోడల కోసం పెయింటింగ్ చేయదగిన మొత్తం ప్రాంతాన్ని నమోదు చేయండి (చదరపు అడుగులలో)",
     "plzEnterTotalPaintableAreaWaterProofing": "దయచేసి వాటర్ ప్రూఫింగ్ చేయడం కోసం పెయింటింగ్ చేయదగిన మొత్తం ప్రాంతాన్ని నమోదు చేయండి (చదరపు అడుగులలో)",
@@ -828,18 +828,18 @@
     "addFromTransactionHistory": "ట్రాన్సాక్షన్ హిస్టరీ నుండి జోడించండి",
     "productAddedSuccessfully": "ప్రోడక్ట్ విజయవంతంగా జోడించబడింది",
     "siteClosureDateAndTime": "సైట్ మూసివేత తేదీ",
-    "comprehensiveWarrantyRegistration": "కాంప్రహెన్సివ్ ప్రాజెక్ట్ రిజిస్ట్రేషన్",
-    "comprehensiveWarrantyText": "You are registering for a comprehensive warranty. Please note that all the information entered by you will be communicated to the customer. Would you like to continue?",
-    "warrantyIssuance": "ప్రాజెక్ట్ జారీ చేయండి",
+    "comprehensiveWarrantyRegistration": "కాంప్రహెన్సివ్ వారంటీ రిజిస్ట్రేషన్",
+    "comprehensiveWarrantyText": "మీరు ఒక సమగ్ర(కాంప్రహెన్సివ్) వారంటీ కోసం రిజిస్టర్ చేసుకుంటున్నారు. దయచేసి మీరు నమోదు చేసిన మొత్తం సమాచారం కస్టమర్‌కు తెలియజేయబడుతుందని గమనించండి. మీరు కొనసాగించాలనుకుంటున్నారా?",
+    "warrantyIssuance": "వారంటీ జారీ చేయండి",
     "labourCharges": "లేబర్ ఛార్జీలు",
     "backToHome": "ప్రాజెక్టులకు తిరిగి వెళ్ళండి",
     "summary": "సారాంశం",
     "warrantyChecklistEditableDescription": "దయచేసి గమనించండి: మీరు ప్రాజెక్ట్ మూసివేతకు ముందు ఎప్పుడైనా ఈ వివరాలను సవరించవచ్చు. అలా చేయడానికి, స్క్రీన్ పైన ఉన్న స్టెప్ ట్రాకర్‌లో \"వారంటీ చెక్‌లిస్ట్\" బటన్‌పై క్లిక్ చేయండి.",
     "editableDescription": "దయచేసి గమనించండి: మీరు ప్రాజెక్ట్ మూసివేతకు ముందు ఎప్పుడైనా ఈ వివరాలను సవరించవచ్చు. అలా చేయడానికి, స్క్రీన్ పైన ఉన్న స్టెప్ ట్రాకర్‌లో \"ప్రొడక్ట్‌లను జోడించు\" బటన్‌పై క్లిక్ చేయండి.",
-    "warrantystatus": "ప్రాజెక్ట్ స్థితి",
+    "warrantystatus": "వారంటీ స్థితి",
     "viewtaggedproducts": "ట్యాగ్ చేయబడిన ప్రోడక్ట్స్ ని చూడండి",
     "view": "చూడండి",
-    "warrantyOTPverificationInstructionMessage": "దయచేసి ప్రాజెక్ట్‌ని మూసివేయడం కోసం కస్టమర్‌కు పంపిన ఓ.టి.పి.ని నమోదు చేయండి",
+    "warrantyOTPverificationInstructionMessage": "వారంటీని మూసివేయడానికి కస్టమర్‌కు పంపిన OTPని నమోదు చేయండి.",
     "certifiedContractorsOnly": "సర్టిఫైడ్ కాంట్రాక్టర్లు మాత్రమే",
     "certifiedWarningDescription": "ఈ ఫీచర్ కేవలం ఉడాన్ సర్టిఫైడ్ కాంట్రాక్టర్లకు మాత్రమే అందుబాటులో ఉంటుంది.",
     "active": "యాక్టివ్ గా ఉంది /క్రియాశీలలో ఉంది",
@@ -849,14 +849,14 @@
     "paintablescannedpercentage": "పెయింట్ చేయగల స్కాన్ చేయబడిన శాతం",
     "waterproofingscannedpercentage": "వాటర్ ప్రూఫింగ్ చేయగల స్కాన్ చేయబడిన శాతం",
     "selectProduct": "దయచేసి కనీసం ఒక ప్రోడక్ట్ ని ఎంచుకోండి",
-    "addProductDetail": "ప్రాజెక్ట్ ప్రక్రియను కొనసాగించడానికి దయచేసి కనీసం ఒక ప్రోడక్ట్ ని జోడించండి.",
+    "addProductDetail": "వారంటీ ప్రక్రియను కొనసాగించడానికి దయచేసి కనీసం ఒక ఉత్పత్తిని జోడించండి.",
     "leackageValidation": "ప్రాజెక్ట్‌లో క్రియాశీలలో ఏదైనా లీకేజీ ఉంటే దయచేసి ఎంచుకోండి",
     "moistureValidation": "దయచేసి ఇంటి గోడలపై తేమ ఉంటే ఎంచుకోండి",
     "cracksValidation": "గోడలపై ఏవైనా పగుళ్లు ఉంటే దయచేసి ఎంచుకోండి",
-    "projectClose": "Project Closed Successfully!",
-    "projectCloseText": "All project details have been archived. You can view the archived projects anytime.",
-    "ProductDeletedSuccessfully": "Product Deleted Successfully",
-    "projectChecklist": "Project Details",
+    "projectClose": "ప్రాజెక్ట్ విజయవంతంగా మూసివేయబడింది!",
+    "projectCloseText": "అన్ని ప్రాజెక్ట్ వివరాలు ఆర్కైవ్ చేయబడ్డాయి. మీరు ఎప్పుడైనా ఆర్కైవ్ చేయబడిన ప్రాజెక్ట్‌లను చూడవచ్చు.",
+    "ProductDeletedSuccessfully": "ప్రోడక్ట్ విజయవంతంగా తొలగించబడింది",
+    "projectChecklist": "ప్రాజెక్ట్ వివరాలు",
     "warrantyPreparationChecklist": "Warranty Preparation Checklist",
     "comprehensiveWarrantyRegistrationdesc": "You are registering for a comprehensive warranty. Please note that all the information entered by you will be communicated to the customer. Would you like to continue?",
     "projecttaggederrors": "The product was scanned earlier than the allowed timeframe for tagging to the warranty.",
@@ -864,7 +864,7 @@
     "paintablearea": "What is Paintable area?",
     "maxValueError": "Max value should not be more than 1000000",
     "comprehensiveWarrantyHeaderText": "Comprehensive Warranty Registration",
-    "sqft": "sq ft"
+    "sqft": "చదరపు అడుగులు"
   },
   "mobileNumber": "మొబైల్ నంబర్",
   "name": "పేరు",
@@ -890,10 +890,10 @@
     "AllField": "దయచేసి అవసరమైన ఫీల్డ్‌ని పూరించండి"
   },
   "singleScan": "క్యాష్‌టోకెన్‌లని ప్రాజెక్ట్‌కి లింక్ చేయడం సాధ్యం కాదు.",
-  "sendOtp": "Send OTP",
+  "sendOtp": "OTPని పంపండి",
   "addProductDetail": "ప్రాజెక్ట్ ప్రక్రియను కొనసాగించడానికి దయచేసి కనీసం ఒక ప్రోడక్ట్ ని జోడించండి. సమాచారం యొక్క ప్రదర్శించబడిందని నిర్ధారించుకోవడానికి ఈ సందేశం బహుళ లైన్లలో ప్రదర్శించబడుతుంది.",
   "architectId": "Architect ID",
   "locked": "This feature is currently locked",
   "pincodeerror": "Please enable location services to fetch the pincode.",
-  "termsAndPrivacyAgreement": "By continuing, I agree to the <terms>Terms & Conditions</terms> and the <privacy>Privacy Policy</privacy>."
+  "termsAndPrivacyAgreement": "కొనసాగించడం ద్వారా, నేను <terms>నిబంధనలు & షరతులు</terms> మరియు <privacy>గోప్యతా విధానం</privacy>కి అంగీకరిస్తున్నాను"
 }

@@ -3,8 +3,8 @@ import json
 
 # Paths to the files
 xlsx_path = r"S:\kombee\Translate\Multilanguage_Client_live_editing_sheet.xlsx"
-json_path = r"S:\kombee\Translate\i18n\ka.json"
-output_json_path = r"S:\kombee\Translate\updaed_ka_json_file.json"
+json_path = r"S:\kombee\Translate\i18n\te.json"
+output_json_path = r"S:\kombee\Translate\updaed_te_json_file.json"
 
 
 # Load the sheet named "Sheet1" from the Excel file
@@ -12,8 +12,8 @@ sheet_name = "Frontend-live-editing"
 df = pd.read_excel(xlsx_path, sheet_name=sheet_name)
 
 # Extract the relevant columns: 'Key' and 'Corrected Telugu Content'
-xlsx_data = df[['Key', 'Corrected Kannada Content']].dropna() #Change this according to your needs
-xlsx_dict = dict(zip(xlsx_data['Key'], xlsx_data['Corrected Kannada Content'])) #Change this according to your needs
+xlsx_data = df[['Key', 'Corrected Telugu Content']].dropna() #Change this according to your needs
+xlsx_dict = dict(zip(xlsx_data['Key'], xlsx_data['Corrected Telugu Content'])) #Change this according to your needs
 
 # Load the JSON file
 with open(json_path, 'r', encoding='utf-8') as f:
