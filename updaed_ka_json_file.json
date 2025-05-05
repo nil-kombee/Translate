@@ -269,7 +269,7 @@
       "required": "ದಯವಿಟ್ಟು PAN(ಪ್ಯಾನ್) ಸಂಖ್ಯೆ ನಮೂದಿಸಿ"
     },
     "ifscdetails": {
-      "valid": "ದಯವಿಟ್ಟು ಮಾನ್ಯವಾದ IFSC ಕೋಡ್ ಅನ್ನು ನಮೂದಿಸಿ",
+      "valid": "ದಯವಿಟ್ಟು ಮಾನ್ಯವಾದ ಐಎಫ್‌ಎಸ್‌ಸಿ ಕೋಡ್ ಅನ್ನು ನಮೂದಿಸಿ",
       "required": "ಐ ಎಫ್ ಎಸ್ ಸಿ ಕೋಡ್ ಅವಶ್ಯಕವಾಗಿದೆ",
       "notmatch": "ಅಕೌಂಟ್ ಸಂಖ್ಯೆ ಹೊಂದಿಕೆಯಾಗುತ್ತಿಲ್ಲ "
     },
@@ -292,7 +292,7 @@
     "lblBankAccountNumber": "ಬ್ಯಾಂಕ್ ಅಕೌಂಟ್ ಸಂಖ್ಯೆ ",
     "lblReBankAccountNumber": "ಬ್ಯಾಂಕ್ ಅಕೌಂಟ್ ಸಂಖ್ಯೆಯನ್ನು ಮತ್ತೆ ನಮೂದಿಸಿ ",
     "lblIFSCCode": "ಐ ಎಫ್ ಎಸ್ ಸಿ ಕೋಡ್",
-    "lblDescription": "ನಿಮ್ಮ ಬ್ಯಾಂಕ್ ಅಕೌಂಟ್ ಅನ್ನು ಪರಿಶೀಲಿಸಲು, ನಾವು ನಿಮ್ಮ ಅಕೌಂಟ್ ಗೆ â‚¹1 ಕ್ರೆಡಿಟ್ ಮಾಡುತ್ತೇವೆ ",
+    "lblDescription": "ನಿಮ್ಮ ಬ್ಯಾಂಕ್ ಖಾತೆಯನ್ನು ಪರಿಶೀಲಿಸಲು, ನಾವು ನಿಮ್ಮ ಖಾತೆಗೆ ₹1 ಜಮಾ ಮಾಡುತ್ತೇವೆ.",
     "lblCheckDescription": "ನಾನು ಈ ಪರಿಶೀಲನೆ ಪ್ರಕ್ರಿಯೆಗೆ ಒಪ್ಪುತ್ತೇನೆ "
   },
   "confirmBankDetailsScreen": {
@@ -351,11 +351,11 @@
     "lblGuideDescription": "QR(ಕ್ಯೂಆರ್) ಕೋಡ್ ಅನ್ನು ಫ್ರೇಮ್ ಒಳಗೆ ಇರಿಸಿ ",
     "lblScanFromGallery": "ಗ್ಯಾಲರಿ ಇಂದ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ ",
     "lblOrText": "ಅಥವಾ ಕೋಡ್ ಅನ್ನು ಕೈಯ್ಯಾರೆ ನಮೂದಿಸಿ ",
-    "lblViewScanDetails": "ಸ್ಕ್ಯಾನ್ ವಿವರಗಳನ್ನು ನೋಡಿ ",
+    "lblViewScanDetails": "ಸಾರಾಂಶವನ್ನು ವೀಕ್ಷಿಸಿ",
     "alltransaction": "ಎಲ್ಲಾ ವಹಿವಾಟುಗಳನ್ನು ನೋಡಿ "
   },
   "scanDetailsScreen": {
-    "lblTitle": "ವಿವರಗಳನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡಿ "
+    "lblTitle": "ಉತ್ಪನ್ನ ಸಾರಾಂಶ"
   },
   "pointHistoryScreen": {
     "lblTitle": "ವಹಿವಾಟು ಇತಿಹಾಸ "
@@ -410,7 +410,7 @@
     "addNewBank": "ಹೊಸ ಬ್ಯಾಂಕ್ ಅಕೌಂಟ್ ಸೇರಿಸಿ ",
     "accountDeleted": "ಅಕೌಂಟ್ ಅಳಿಸಲಾಗಿದೆ ",
     "deleteAccountConfirmationMsg": "ನಿಮ್ಮ ಅಕೌಂಟ್ ಅಳಿಸುತ್ತಿದ್ದೀರಾ?",
-    "deleteAccountWarnMsg": "",
+    "deleteAccountWarnMsg": "ಅಕೌಂಟ್ ಅನ್ನು ಅಳಿಸಲಾಗಿದೆ",
     "deleteBankAccountConfirmationMsg": "ನೀವು ಈ ಬ್ಯಾಂಕ್ ಅಕೌಂಟ್ ಅಳಿಸಲು ಖಚಿತವಾಗಿದ್ದೀರಾ?",
     "deleteUpiIdAccountConfirmationMsg": "ನೀವು ಈ ಯುಪಿಐ ಐಡಿ ಅಳಿಸಲು ಖಚಿತವಾಗಿದ್ದೀರಾ?",
     "otpInputDescription": "ಈ ಕ್ರಿಯೆಯನ್ನು ಮುಗಿಸಲು ದಯವಿಟ್ಟು ನಿಮ್ಮ ಫೋನ್ ನಂಬರ್ ಗೆ ಕಳುಹಿಸಲಾದ 6 ಅಂಕಿಯ ಓಟಿಪಿ(OTP) ಅನ್ನು ನಮೂದಿಸಿ ",
@@ -445,7 +445,9 @@
     "selectPaymentMethodToReceive": "ಪಡೆಯಲು ಪಾವತಿ ವಿಧಾನವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ ",
     "transactionid": "ವಹಿವಾಟು ಐಡಿ ",
     "couponCode": "ಕೂಪನ್ ಕೋಡ್",
-    "rupees": "ರೂಪಾಯಿಗಳು"
+    "rupees": "ರೂಪಾಯಿಗಳು",
+    "MinRedPoint": "For redeeming the first time, you need minimum",
+    "MinRedRupee": "For redeeming the first time, you need an amount of minimum Rs."
   },
   "howItWork": {
     "lblTitle": "ಇದು ಹೇಗೆ ಕೆಲಸ ಮಾಡುತ್ತದೆ",
@@ -482,9 +484,9 @@
     "opuscard": "ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ ಆಕ್ಸೆಸ್ ಮಾಡಿ, ಪ್ರಯೋಜನಗಳನ್ನು ಆನಂದಿಸಿ, ಇದನ್ನು ನಿಮ್ಮ ಡಿಜಿಟಲ್ ವಿಸಿಟಿಂಗ್ ಕಾರ್ಡ್ ಆಗಿ ಹಂಚಿಕೊಳ್ಳಿ, ಮತ್ತು ಇನ್ನೂ ಹೆಚ್ಚು ಮಾಡಿ ",
     "completekyc": "ಓಪಸ್ ನ ಪ್ರಯೋಜನಗಳಿಗೆ ಪ್ರವೇಶ ಪಡೆಯಲು ನಿಮ್ಮ ಕೆವೈಸಿ(KYC) ಅನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ ",
     "cameraScan": "ಕ್ಯಾಮೆರಾ ಸ್ಕ್ಯಾನ್",
-    "cameraDescription": "ಕ್ಯೂ.ಆರ್ ಕೋಡ್ ಸ್ಕ್ಯಾನ್ ಮಾಡಲು ನಿಮ್ಮ ಫೋನ್‌ನ ಕ್ಯಾಮೆರಾವನ್ನು ಬಳಸಿ.",
+    "cameraDescription": "QR ಕೋಡ್ ಸ್ಕ್ಯಾನ್ ಮಾಡಲು ನಿಮ್ಮ ಫೋನ್‌ನ ಕ್ಯಾಮೆರಾವನ್ನು ಬಳಸಿ.",
     "galleryScan": "ಗ್ಯಾಲರಿ ಸ್ಕ್ಯಾನ್",
-    "galleryDescription": "ನಿಮ್ಮ ಗ್ಯಾಲರಿಯಿಂದ ಕ್ಯೂ.ಆರ್ ಕೋಡ್ ಚಿತ್ರವನ್ನು ಆರಿಸಿ",
+    "galleryDescription": "ನಿಮ್ಮ ಗ್ಯಾಲರಿಯಿಂದ QR ಕೋಡ್ ಚಿತ್ರವನ್ನು ಆರಿಸಿ",
     "manualEntry": "ಮ್ಯಾನುಯಲ್ ಎಂಟ್ರೀ",
     "manualEntryDescription": "ಆನ್-ಸ್ಕ್ರೀನ್ ಕೀಬೋರ್ಡ್ ಬಳಸಿ ಕೋಡ್ ಅನ್ನು ಟೈಪ್ ಮಾಡಿ.",
     "flashlight": "ಫ್ಲ್ಯಾಶ್‌ಲೈಟ್",
@@ -492,11 +494,12 @@
   },
   "myTeams": {
     "toYourDealersList": "ನಿಮ್ಮ ಡೀಲರ್ಸ್ ಲಿಸ್ಟ್ ಗೆ?",
-    "isNowDealerList": "ಈಗ ನಿಮ್ಮ ಡೀಲರ್ಸ್ ಲಿಸ್ಟ್ ನಲ್ಲಿ ಇದ್ದಾರೆ",
+    "isNowDealerList": "ಈಗ ನಿಮ್ಮ ವಿತರಕರ ಪಟ್ಟಿಯಲ್ಲಿದೆ",
     "requestSentTo": "ಗೆ ವಿನಂತಿ ಕಳುಹಿಸಲಾಗಿದೆ ",
     "newTeamMemberAdded": "ಹೊಸ ಟೀಮ್ ಸದಸ್ಯರನ್ನು ಸೇರಿಸಲಾಗಿದೆ.",
     "searchmember": "ಸದಸ್ಯರನ್ನು ಹುಡುಕಿ",
-    "searchdealer": "ಡೀಲರ್‌ಗಳನ್ನು ಹುಡುಕಿ"
+    "searchdealer": "ಡೀಲರ್‌ಗಳನ್ನು ಹುಡುಕಿ",
+    "add": "Add "
   },
   "addpaymentmethod": {
     "addpaymentmethod": "ಪೇಮೆಂಟ್ ವಿಧಾನವನ್ನು ಸೇರಿಸಿ",
@@ -510,7 +513,7 @@
     "invalid": "ಅಮಾನ್ಯ QR(ಕ್ಯೂಆರ್) ಕೋಡ್",
     "invaliddetail": "ಹೆಚ್ಚು ತಿಳಿಯಲು ಕಸ್ಟಮರ್ ಕೇರ್ ಗೆ ಸಂಪರ್ಕಿಸಿ ",
     "expired": "QR(ಕ್ಯೂಆರ್) ಕೋಡ್ ನ ಅವಧಿ ಮುಗಿದಿದೆ",
-    "expireddetail": "QR(ಕ್ಯೂಆರ್) ಕೋಡ್ ನ ಅವಧಿಯು ರಂದು ಮುಗಿದಿದೆ ",
+    "expireddetail": "QR(ಕ್ಯೂಆರ್) ಕೋಡ್ ನ ಅವಧಿಯು _ರಂದು ಮುಗಿದಿದೆ ",
     "alreadyused": "ಈ ಪ್ರಾಡಕ್ಟ್ ಅನ್ನು ಈಗಾಗಲೇ ಸ್ಕ್ಯಾನ್ ಮಾಡಲಾಗಿದೆ",
     "alreadyuseddetail": "ನೀವು QR(ಕ್ಯೂಆರ್) ಕೋಡ್ ಅನ್ನು ಶೇರ್ ಮಾಡಿರದಿದ್ದಲ್ಲಿ ದೂರನ್ನು ದಾಖಲಿಸಿ",
     "unablescan": "ಕೋಡ್ ಸ್ಕ್ಯಾನ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ",
@@ -528,15 +531,15 @@
     "enterpoints": "ರಿಡೀಮ್ ಮಾಡಲು ಬಯಸುವ ಪಾಯಿಂಟ್ಸ್ ನ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ ",
     "minimumpoints": "ಪಾಯಿಂಟ್ಸ್ ರಿಡೀಮ್ ಮಾಡಲು ಬೇಕಾಗುವ ಕನಿಷ್ಠ ಮೊತ್ತಕ್ಕಿಂತ ಕಡಿಮೆ ಇವೆ",
     "minimumpointsrupees": "ನಮೂದಿಸಿದ ಮೊತ್ತ ನಿಮ್ಮ ವಾಲೆಟ್‌ನಲ್ಲಿ ಲಭ್ಯವಿರುವ ಕನಿಷ್ಠ ಅಮೌಂಟಿಗಿಂತ ಕಡಿಮೆಯಾಗಿದೆ",
-    "raiseanissue": "ದೂರನ್ನು ದಾಖಲಿಸಿ ",
+    "raiseanissue": "ದೂರನ್ನು ಎತ್ತಿಕೊಳ್ಳಿ",
     "issueonscan": "ಟೆಕ್ಸ್ಟ್ ಬಾಕ್ಸ್ ಅಲ್ಲಿ ಕೋಡ್ ಅನ್ನು ಮ್ಯಾನುಯಲ್ ಆಗಿ ಎಂಟರ್ ಮಾಡಿ. ಸಹಾಯ ಬೇಕೇ? ಸಂಪರ್ಕಿಸಿ ",
-    "Clickablelink": " ಕಸ್ಟಮರ್ ಕೇರ್ ",
+    "Clickablelink": "ಕಸ್ಟಮರ್ ಕೇರ್ ",
     "notlink": "ಹೆಚ್ಚಿನ ಸಹಾಯಕ್ಕಾಗಿ ",
     "troublescan": "ಸ್ಕ್ಯಾನ್ ಮಾಡುವಲ್ಲಿ ತೊಂದರೆಯಾಗಿದೆಯೇ?",
-    "dbvalidation": "ನೀವು ಈಗಾಗಲೇ ಈ ಕ್ಯೂ.ಆರ್ ಕೋಡ್ ಅನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ್ದೀರಿ",
+    "dbvalidation": "ನೀವು ಈಗಾಗಲೇ ಈ QR ಕೋಡ್ ಅನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ್ದೀರಿ",
     "dbvalidationdetail": "ದಯವಿಟ್ಟು ನಿಮ್ಮ ಟ್ರಾನ್ಸಾಕ್ಷನ್ ಹಿಸ್ಟರಿ ಚೆಕ್ ಮಾಡಿ ಅಥವಾ ಹೆಚ್ಚಿನ ವಿವರಗಳಿಗಾಗಿ ನಿಮ್ಮ ಟಿ.ಎಸ್. ಎಂ ಜೊತೆ ಮಾತನಾಡಿ",
     "invalidloyalty": "ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ ಪ್ರಾಡಕ್ಟ್ ಲಾಯಲ್ಟಿ ಪ್ರಾಜೆಕ್ಟ್ ಅನ್ನು ಭಾಗವಾಗಿಲ್ಲ. ಹೆಚ್ಚಿನ ವಿವರಗಳಿಗಾಗಿ ದಯವಿಟ್ಟು ನಿಮ್ಮ ಟಿ.ಎಸ್. ಎಂ ಅನ್ನು ಸಂಪರ್ಕಿಸಿ",
-    "invalidloyalty1": "ನಮ್ಮ ದಾಖಲೆಗಳಲ್ಲಿ ಈ ಕ್ಯೂ.ಆರ್ ಕೋಡ್ ಅನ್ನು ಪತ್ತೆಹಚ್ಚಲು ನಮಗೆ ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ಹೆಚ್ಚಿನ ಸಹಾಯಕ್ಕಾಗಿ ದಯವಿಟ್ಟು ನಿಮ್ಮ ಟಿ.ಎಸ್. ಎಂ ಗೆ ಕ್ಯೂ.ಆರ್ ಕೋಡ್‌ನ ಚಿತ್ರವನ್ನು ಕಳುಹಿಸಿ.",
+    "invalidloyalty1": "ನಮ್ಮ ದಾಖಲೆಗಳಲ್ಲಿ ಈ QR ಕೋಡ್ ಅನ್ನು ಪತ್ತೆಹಚ್ಚಲು ನಮಗೆ ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ಹೆಚ್ಚಿನ ಸಹಾಯಕ್ಕಾಗಿ ದಯವಿಟ್ಟು ನಿಮ್ಮ ಟಿ.ಎಸ್. ಎಂ ಗೆ QR ಕೋಡ್‌ನ ಚಿತ್ರವನ್ನು ಕಳುಹಿಸಿ.",
     "backendissue": "ಓಹ್! ನಾವು ಕೆಲವು ಬ್ಯಾಕೆಂಡ್ ಸಮಸ್ಯೆಗಳನ್ನು ಎದುರಿಸುತ್ತಿದ್ದೇವೆ. ದಯವಿಟ್ಟು ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.",
     "notbirlaopusproduct": "ಲಾಯಲ್ಟಿ ಪಾಯಿಂಟ್‌ಗಳನ್ನು ಗಳಿಸಲು ದಯವಿಟ್ಟು ಬಿರ್ಲಾ ಓಪಸ್ ಪ್ರಾಡಕ್ಟ್ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ"
   },
@@ -557,9 +560,9 @@
     "successcountmessage": "ಅದ್ಭುತ! ನೀವು QR(ಕ್ಯೂಆರ್) ಕೋಡ್ ಅನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ್ದೀರಿ",
     "unsuccessfulscan": "ವಿಫಲವಾದ ಸ್ಕ್ಯಾನ್ ಗಳ ಬಗ್ಗೆ ತಿಳಿಯಲು ಸ್ಕ್ಯಾನ್ ವಿವರಗಳನ್ನು ನೋಡಿ ",
     "successscan": "ಈದಿನ ಉಳಿದಿರುವ ಯಶಸ್ವಿ ಸ್ಕ್ಯಾನ್‌ಗಳು ",
-    "noactivity": "Hi, the QR code scanner couldn’t capture any codes since the past 180 seconds. You will be re-directed to Home screen.",
-    "noactivityheader": "No activity detected",
-    "blocked": "Blocked"
+    "noactivity": "ನಮಸ್ತೆ, ಕಳೆದ 180 ಸೆಕೆಂಡುಗಳಿಂದ QR ಕೋಡ್ ಸ್ಕ್ಯಾನರ್ ಯಾವುದೇ ಕೋಡ್‌ ಕ್ಯಾಪ್ಚರ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ನಿಮ್ಮನ್ನು ಹೋಂ ಸ್ಕ್ರೀನ್ ಗೆ ರಿಡೈರೆಕ್ಟ್ ಮಾಡಲಾಗುತ್ತದೆ.",
+    "noactivityheader": "ಯಾವುದೇ ಆಕ್ಟಿವಿಟಿ ಪತ್ತೆಯಾಗಿಲ್ಲ",
+    "blocked": "ಬ್ಲಾಕ್ ಮಾಡಲಾಗಿದೆ"
   },
   "permission": {
     "locationpermission": "ಲೊಕೇಶನ್ ನ ಅನುಮತಿ ",
@@ -627,9 +630,9 @@
     "opushome": "ಓಪಸ್ ಹೋಮ್"
   },
   "quicklinks": {
-    "comingsoon": "ಬೇಗ ಬರುತ್ತಿದೆ",
-    "colorvisualizer": "ಬಣ್ಣ ವಿನ್ಯಾಸಕ",
-    "traininglearning": "ಶಿಕ್ಷಣ ಮತ್ತು ಕಲಿಕೆ"
+    "comingsoon": "ಬೇಗ ಬರುತ್ತಿದೆ ",
+    "colorvisualizer": "ಕಲರ್ ವಿಶುಅಲೈಸೇಶನ್",
+    "traininglearning": "ತರಬೇತಿ ಮತ್ತು ಕಲಿಕೆ"
   },
   "redempoints": "ಅಂಕಗಳನ್ನು ವಿಲೇವಾರಿ ಮಾಡು",
   "redemnow": "ಈಗ ವಿಲೇವಾರಿ ಮಾಡು",
@@ -665,7 +668,7 @@
     "openissues": "ತೆರೆದಿರುವ ಸಮಸ್ಯೆಗಳು",
     "closedissues": "ಮುಚ್ಚಿದ ಸಮಸ್ಯೆಗಳು",
     "raisetransactionissues": "ಟ್ರಾನ್ಸಾಕ್ಷನ್ ಸಮಸ್ಯೆಯನ್ನು ತಿಳಿಸಿ    ",
-    "raiseanissue": "ಸಮಸ್ಯೆಯನ್ನು  ತಿಳಿಸಿ ",
+    "raiseanissue": "ದೂರನ್ನು ಎತ್ತಿಕೊಳ್ಳಿ",
     "yourissue": "ನಿಮ್ಮ ಸಮಸ್ಯೆಯ ಬಗ್ಗೆ ನಮಗೆ ತಿಳಿಸಿ. ಅದನ್ನು ತಕ್ಷಣ ಸರಿಪಡಿಸಲು ನಾವು ನಿಮಗೆ ಸಹಾಯ ಮಾಡಲು ಪ್ರಯತ್ನಿಸುತ್ತೇವೆ.",
     "selecttransaction": "ಸಮಸ್ಯೆಯನ್ನು ರಿಜಿಸ್ಟರ್ ಮಾಡಲು ಟ್ರಾನ್ಸಾಕ್ಷನ್ ಆಯ್ಕೆಮಾಡಿ",
     "pleasegivethedetail": "ದಯವಿಟ್ಟು ನಮಗೆ ಹೆಚ್ಚಿನ ವಿವರಗಳನ್ನು ನೀಡಿ",
@@ -687,7 +690,8 @@
     "feedback": "ಫೀಡ್ ಬ್ಯಾಕ್ ಸಬ್ಮಿಟ್ ಮಾಡಿ ",
     "pleaseSelectRating": "",
     "needhelp": "ಸಹಾಯ ಬೇಕೇ?",
-    "submitIssues": "Submit your issues and get quick resolutions"
+    "submitIssues": "Submit your issues and get quick resolutions",
+    "uploadedimages": "Uploaded images"
   },
   "tdstext": "ಟಿಡಿಎಸ್ (ಮೂಲದಲ್ಲಿ ತೆರಿಗೆ ಕಡಿತಗೊಳಿಸಲಾಗಿದೆ)",
   "redemerrorpoint": "ಪಾಯಿಂಟ್‌ಗಳ ರಿಡೆಂಪ್ಶನ್ ವಿಫಲವಾಗಿದೆ. ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.",
@@ -713,7 +717,7 @@
     "type": "ಪ್ರಕಾರ",
     "floorArea": "ಫ್ಲೋರ್ ಏರಿಯಾ/ ಮಹಡಿ ವಿಸ್ತೀರ್ಣ",
     "address": "ವಿಳಾಸ",
-    "warrantyRegistered": "ರಿಜಿಸ್ಟರ್ ಮಾಡಿದ ವಾರೆಂಟಿ ",
+    "warrantyRegistered": "ವಾರೆಂಟಿ ರಿಜಿಸ್ಟರ್ ಮಾಡಲಾಗಿದೆ",
     "downloadPDF": "ಡೌನ್‌ಲೋಡ್ ಪಿ.ಡಿ.ಎಫ್ ",
     "ratings": "ರೇಟಿಂಗ್‌ಗಳು"
   },
@@ -724,7 +728,7 @@
     "quickActions": "ತ್ವರಿತ ಕ್ರಮಗಳು",
     "estimateBudget": "ಅಂದಾಜು ಬಜೆಟ್",
     "removeInPorfolio": "ಪೋರ್ಟ್ಫೋಲಿಯೊದಿಂದ ತೆಗೆದುಹಾಕಿ",
-    "warrantyRegistration": "ಯೋಜನೆಯ ವಿವರಗಳು",
+    "warrantyRegistration": "ವಾರೆಂಟಿ",
     "projectName": "ಪ್ರಾಜೆಕ್ಟ್ ನ ಹೆಸರು",
     "customerName": "ಗ್ರಾಹಕರ ಹೆಸರು",
     "customerMobileNumber": "ಗ್ರಾಹಕರ ಮೊಬೈಲ್ ನಂಬರ್ ",
@@ -745,10 +749,10 @@
     "tagToAProject": "ಒಂದು ಪ್ರಾಜೆಕ್ಟ್ ಅನ್ನು ಟ್ಯಾಗ್ ಮಾಡಿ",
     "selectProject": "ಪ್ರಾಜೆಕ್ಟ್ ಅನ್ನು ಆಯ್ಕೆಮಾಡಿ",
     "createProject": "ಪ್ರಾಜೆಕ್ಟ್ ಅನ್ನು ರಚಿಸಿ",
-    "projectSearchText": "ಹೆಸರು, ಐಡಿ, ಫೋನ್ ಸಂಖ್ಯೆ",
+    "projectSearchText": "ಹೆಸರು",
     "projectId": "ಪ್ರಾಜೆಕ್ಟ್ ಐಡಿ",
     "pleaseNote": "ದಯವಿಟ್ಟು ಗಮನಿಸಿ:",
-    "noteDescription": "ಪ್ರಾಜೆಕ್ಟ್ ಗಾಗಿ ನೀವು ನೀಡಿದ ಎಲ್ಲಾ ಮಾಹಿತಿಯನ್ನು ವೆರಿಫಿಕೇಷನ್ ಗಾಗಿ ಗ್ರಾಹಕರೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಲಾಗುತ್ತದೆ. ಅದನ್ನು ವೆರಿಫೈ ಮಾಡಲು, ಗ್ರಾಹಕರು ಓಟಿಪಿಯನ್ನು (OTP) ಸ್ವೀಕರಿಸುತ್ತಾರೆ, ಅದನ್ನು ಪ್ರಾಜೆಕ್ಟ್ ರಚನೆಗಾಗಿ ಭರ್ತಿಮಾಡಬೇಕಾಗಿದೆ .",
+    "noteDescription": "ನಿಮ್ಮ ಎಲ್ಲಾ ಮಾಹಿತಿಯನ್ನು ಪರಿಶೀಲನೆಗಾಗಿ ಗ್ರಾಹಕರೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಲಾಗುತ್ತದೆ ಮತ್ತು ಪರಿಶೀಲನೆಗಾಗಿ ನೀವು ಗ್ರಾಹಕರಿಂದ ಒಟಿಪಿ ಪಡೆಯಬೇಕು.",
     "customerConfirmation": "ಗ್ರಾಹಕರಿಂದ ಪ್ರಾಜೆಕ್ಟ್ ವೆರಿಫಿಕೇಷನ್",
     "createProject2": "ಪ್ರಾಜೆಕ್ಟ್ ರಚಿಸಿ",
     "projectStatus": "ಪ್ರಾಜೆಕ್ಟ್ ನ ಸ್ಟೇಟಸ್ ",
@@ -772,9 +776,9 @@
     "interiorAndExterior": "ಒಳಾಂಗಣ ಮತ್ತು ಬಾಹ್ಯ",
     "addressLine1": "ವಿಳಾಸ",
     "dateRange": "ದಿನಾಂಕ ಶ್ರೇಣಿ",
-    "CloseProjectValidation": "You can return here by clicking back and edit it anytime before closing the project.",
-    "Success": "Success",
-    "LeadConvertedSuccessfully": "Lead converted successfully",
+    "CloseProjectValidation": "ನೀವು ಬ್ಯಾಕ್ ಕ್ಲಿಕ್ ಮಾಡುವ ಮೂಲಕ ಇಲ್ಲಿಗೆ ಹಿಂತಿರುಗಬಹುದು ಮತ್ತು ಪ್ರಾಜೆಕ್ಟ್ ಅನ್ನು  ಮುಚ್ಚುವ ಮೊದಲು ಯಾವುದೇ ಸಮಯದಲ್ಲಿ ಅದನ್ನು ಎಡಿಟ್ ಮಾಡಬಹುದು.",
+    "Success": "ಲೀಡ್ ಅನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಪರಿವರ್ತಿಸಲಾಗಿದೆ",
+    "LeadConvertedSuccessfully": "ಯಶಸ್ವಿಯಾಗಿದೆ",
     "addprojectDetails": "Add Project Details"
   },
   "mediaSelection": {
@@ -791,8 +795,8 @@
   "save&Continue": "ಸೇವ್ ಮಾಡಿ ಮತ್ತು ಮುಂದುವರಿಸಿ",
   "attention": "ಗಮನಿಸಿ",
   "warranty": {
-    "warranty": "ಯೋಜನೆ ",
-    "warrantyChecklist": "ಯೋಜನೆ ಚೆಕ್ ಲಿಸ್ಟ್ ",
+    "warranty": "ವಾರಂಟಿ ",
+    "warrantyChecklist": "ವಾರಂಟಿ ಚೆಕ್ ಲಿಸ್ಟ್ ",
     "customerDetails": "ಗ್ರಾಹಕರ ವಿವರಗಳು",
     "siteDetails": "ಪ್ರಾಜೆಕ್ಟ್ ನ ವಿವರಗಳು",
     "leakageOnSite": "ಸೈಟ್‌ನಲ್ಲಿ ಯಾವುದಾದರು ಲೀಕೇಜ್ ಇದೆಯೇ?",
@@ -801,15 +805,15 @@
     "puttyUsed": "ಪಟ್ಟಿ ಬಳಸಲಾಗಿದೆ",
     "siteStartDate": "ಸೈಟ್ ಪ್ರಾರಂಭವಾದ ದಿನಾಂಕ",
     "siteEndDate": "ಸೈಟ್ ಮುಕ್ತಾಯವಾದ ದಿನಾಂಕ",
-    "sitePreparationChecklist": "ಪಯೋಜನೆಯ ಸಿದ್ಧತೆ ಪರಿಶೀಲನಾಪಟ್ಟಿ",
+    "sitePreparationChecklist": "ಪ್ರಾಜೆಕ್ಟ್ ಸಿದ್ಧತೆಯ ಚೆಕ್ ಲಿಸ್ಟ್ ",
     "totalPaintableAreaInterior": "ಒಳಗಿನ ಗೋಡೆಗಳಿಗೆ ಪೇಂಟ್ ಮಾಡಬೇಕಾದ ಪ್ರದೇಶ (ಚ.ಅಡಿಯಲ್ಲಿ)",
     "totalPaintableAreaExterior": "ಹೊರಗಿನ ಗೋಡೆಗಳಿಗೆ ಪೇಂಟ್ ಮಾಡಬೇಕಾದ ಪ್ರದೇಶ (ಚ.ಅಡಿಯಲ್ಲಿ)",
     "totalPaintableAreaWaterProofing": "ವಾಟರ್ ಪ್ರೂಫಿಂಗ್ ಮಾಡಲು ಪೇಂಟ್ ಮಾಡಬೇಕಾದ ಪ್ರದೇಶ (ಚ.ಅಡಿಯಲ್ಲಿ)",
     "totalPaintableAreaWoodFinishes": "ವುಡ್ ಫಿನಿಷ್ ಮಾಡಲು ಪೇಂಟ್ ಮಾಡಬೇಕಾದ ಪ್ರದೇಶ (ಚ.ಅಡಿಯಲ್ಲಿ)",
     "totalPaintableArea": "ಒಟ್ಟು ಪೈಂಟ್ ಮಾಡಬಹುದಾದ ಪ್ರದೇಶ (ಒಳಗಡೆ ಮತ್ತು ಹೊರಗಡೆ) (ಚದರ ಅಡಿ)",
-    "plzEnterSiteStartDate": "ದಯವಿಟ್ಟು ಸೈಟ್ ಪ್ರಾರಂಭ ದಿನಾಂಕವನ್ನು ಹಾಕಿ",
+    "plzEnterSiteStartDate": "ದಯವಿಟ್ಟು ಖಾತರಿ ಪರಿಶೀಲನಾ ದಿನಾಂಕವನ್ನು ನಮೂದಿಸಿ.",
     "plzEnterSiteEndDate": "ದಯವಿಟ್ಟು ಸ್ಥಳ ಅಂತಿಮ ದಿನಾಂಕ ನಮೂದಿಸಿ",
-    "plzEnterSitePreparationChecklist": "ದಯವಿಟ್ಟು ಸಂಪೂರ್ಣ ಸೈಟ್ ಸಿದ್ಧತೆಯ ಚೆಕ್ ಲಿಸ್ಟ್ ಅನ್ನು ಭರ್ತಿಮಾಡಿ",
+    "plzEnterSitePreparationChecklist": "ದಯವಿಟ್ಟು ಖಾತರಿ ತಯಾರಿ ಪರಿಶೀಲನಾಪಟ್ಟಿಯನ್ನು ನಮೂದಿಸಿ.",
     "plzEnterTotalPaintableAreaInterior": "ಒಳಗಿನ ಗೋಡೆಗಳಿಗೆ (ಚ.ಅಡಿಯಲ್ಲಿ) ಒಟ್ಟು ಪೇಂಟ್ ಮಾಡಬಹುದಾದ ಪ್ರದೇಶವನ್ನು ಭರ್ತಿಮಾಡಿ",
     "plzEnterTotalPaintableAreaExterior": "ದಯವಿಟ್ಟು ಹೊರಗಿನ ಗೋಡೆಗಳಿಗೆ (ಚ.ಅಡಿಯಲ್ಲಿ) ಒಟ್ಟು ಪೇಂಟ್ ಮಾಡಬೇಕಾದ ಪ್ರದೇಶವನ್ನು ಭರ್ತಿಮಾಡಿ",
     "plzEnterTotalPaintableAreaWaterProofing": "ವಾಟರ್ ಪ್ರೂಫಿಂಗ್ ಮಾಡಲು ದಯವಿಟ್ಟು ಒಟ್ಟು ಪೇಂಟ್ ಮಾಡಬೇಕಾದ ಪ್ರದೇಶವನ್ನು ಭರ್ತಿಮಾಡಿ (ಚ.ಅಡಿಯಲ್ಲಿ)",
@@ -824,40 +828,43 @@
     "addFromTransactionHistory": "ಟ್ರಾನ್ಸಾಕ್ಷನ್ ಹಿಸ್ಟರಿ ಇಂದ ಸೇರಿಸಿ",
     "productAddedSuccessfully": "ಪ್ರಾಡಕ್ಟ್ ಅನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಸೇರಿಸಲಾಗಿದೆ",
     "siteClosureDateAndTime": "ಸೈಟ್ ಮುಚ್ಚುವ ದಿನಾಂಕ",
-    "comprehensiveWarrantyRegistration": "ಕಾಂಪ್ರಹೆನ್ಸಿವ್ ಯೋಜನೆ ರಿಜಿಸ್ಟ್ರೇಷನ್ ",
-    "warrantyIssuance": "ಯೋಜನೆ ನೀಡಿಕೆ",
+    "comprehensiveWarrantyRegistration": "ಕಾಂಪ್ರಹೆನ್ಸಿವ್ ವಾರಂಟಿ ರಿಜಿಸ್ಟ್ರೇಷನ್ ",
+    "warrantyIssuance": "ವಾರಂಟಿ ನೀಡಿಕೆ",
     "labourCharges": "ಕಾರ್ಮಿಕ ಶುಲ್ಕಗಳು",
     "backToHome": "ಪ್ರಾಜೆಕ್ಟ್ ಗಳಿಗೆ ಹಿಂತಿರುಗಿ",
     "summary": "ಸಾರಾಂಶ",
     "warrantyChecklistEditableDescription": "ದಯವಿಟ್ಟು ಗಮನಿಸಿ: ನೀವು ಪ್ರಾಜೆಕ್ಟ್ ಮುಚ್ಚುವ ಮೊದಲು ಈ ವಿವರಗಳನ್ನು ಯಾವಾಗ ಬೇಕಾದರೂ ಎಡಿಟ್ ಮಾಡಬಹುದು. ಈ ರೀತಿ ಮಾಡಲು, ಸ್ಕ್ರೀನ್ ಮೇಲ್ಭಾಗದಲ್ಲಿರುವ ಸ್ಟೆಪ್ ಟ್ರ್ಯಾಕರ್‌ನಲ್ಲಿರುವ \"ವಾರೆಂಟಿ ಚೆಕ್‌ಲಿಸ್ಟ್\" ಬಟನ್ ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ.",
     "editableDescription": "ದಯವಿಟ್ಟು ಗಮನಿಸಿ: ಪ್ರಾಜೆಕ್ಟ್ ಮುಚ್ಚುವ ಮೊದಲು ನೀವು ಈ ವಿವರಗಳನ್ನು ಯಾವಾಗ ಬೇಕಾದರೂ ಎಡಿಟ್ ಮಾಡಬಹುದು. ಈ ರೀತಿ ಮಾಡಲು, ಸ್ಕ್ರೀನ್ ಮೇಲ್ಭಾಗದಲ್ಲಿರುವ ಸ್ಟೆಪ್ ಟ್ರ್ಯಾಕರ್‌ನಲ್ಲಿರುವ \"ಪ್ರಾಡಕ್ಟ್ ಗಳನ್ನು ಸೇರಿಸಿ\" ಬಟನ್ ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ.",
-    "warrantystatus": "ಖಾತರಿ ಸ್ಥಿತಿ/ಯೋಜನೆ ಸ್ಟೇಟಸ್",
+    "warrantystatus": "ವಾರಂಟಿ / ವಾರಂಟಿ ಸ್ಟೇಟಸ್",
     "viewtaggedproducts": "ಟ್ಯಾಗ್ ಮಾಡಲಾದ ಪ್ರಾಡಕ್ಟ್ ಗಳನ್ನು ನೋಡಿ ",
     "view": "ನೋಡಿ ",
-    "warrantyOTPverificationInstructionMessage": "ಪ್ರಾಜೆಕ್ಟ್ ಅನ್ನು ಮುಚ್ಚಲು ಗ್ರಾಹಕರಿಗೆ ಕಳುಹಿಸಲಾದ OTP ಅನ್ನು ಎಂಟರ್ ಮಾಡಿ",
+    "warrantyOTPverificationInstructionMessage": "ದಯವಿಟ್ಟು ಖಾತರಿಯನ್ನು ಮುಚ್ಚಲು ಗ್ರಾಹಕರಿಗೆ ಕಳುಹಿಸಲಾದ OTP ಅನ್ನು ನಮೂದಿಸಿ.",
     "certifiedContractorsOnly": "ಪ್ರಮಾಣೀಕೃತ ಗುತ್ತಿಗೆದಾರರು ಮಾತ್ರ",
-    "certifiedWarningDescription": "ಈ ಫೀಚರ್ ಉಡಾನ್ ಪ್ರಮಾಣೀಕೃತ ಗುತ್ತಿಗೆದಾರರಿಗೆ ಮಾತ್ರ ನೋಡಬಹುದಾಗಿದೆ ದೆ.",
+    "certifiedWarningDescription": "ಪ್ರಮಾಣೀಕೃತ ಎಚ್ಚರಿಕೆ ವಿವರಣೆ",
     "active": "ಆಕ್ಟಿವ್",
-    "notApplicable": "ಅಪ್ಲೈ ಆಗುವುದಿಲ್ಲ ",
-    "paintablescannedarea": "ಪೈಂಟ್ ಮಾಡಬಹುದಾದ ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ ಪ್ರದೇಶ",
+    "notApplicable": "ಅನ್ವಯಿಸುವುದಿಲ್ಲ",
+    "paintablescannedarea": "ಪೈಂಟ್ ಸ್ಕ್ಯಾನ್ ಮಾಡಬಹುದಾದ ಪ್ರದೇಶ",
     "waterproofingscannedarea": "ವಾಟರ್ ಪ್ರೂಫಿಂಗ್ ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ ಪ್ರದೇಶ",
     "paintablescannedpercentage": "ಪೈಂಟ್ ಮಾಡಬಹುದಾದ ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ ಶೇಕಡಾವಾರು",
     "waterproofingscannedpercentage": "ವಾಟರ್ ಪ್ರೂಫಿಂಗ್ ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ ಶೇಕಡಾವಾರು",
     "selectProduct": "ದಯವಿಟ್ಟು ಕನಿಷ್ಠ ಒಂದು ಪ್ರಾಡಕ್ಟ್ ಆಯ್ಕೆಮಾಡಿ",
-    "addProductDetail": "ಪ್ರಾಜೆಕ್ಟ್ ಪ್ರಕ್ರಿಯೆಯನ್ನು ಮುಂದುವರಿಸಲು ದಯವಿಟ್ಟು ಕನಿಷ್ಠ ಒಂದು ಪ್ರಾಡಕ್ಟ್ ಸೇರಿಸಿ.",
+    "addProductDetail": "ಖಾತರಿ ಪ್ರಕ್ರಿಯೆಯನ್ನು ಮುಂದುವರಿಸಲು ದಯವಿಟ್ಟು ಕನಿಷ್ಠ ಒಂದು ಉತ್ಪನ್ನವನ್ನು ಸೇರಿಸಿ.",
     "leackageValidation": "ಪ್ರಾಜೆಕ್ಟ್ ಅಲ್ಲಿ ಯಾವುದೇ ಆಕ್ಟಿವ್ ಲೀಕೇಜ್ ಇದೆಯೇ ಎಂದು ದಯವಿಟ್ಟು ಆಯ್ಕೆಮಾಡಿ",
     "moistureValidation": "ಮನೆಯ ಗೋಡೆಗಳ ಮೇಲೆ ಯಾವುದೇ ತೇವಾಂಶವಿದೆಯೇ ಎಂದು ದಯವಿಟ್ಟು ಆಯ್ಕೆಮಾಡಿ",
     "cracksValidation": "ಗೋಡೆಗಳ ಮೇಲೆ ಯಾವುದೇ ಬಿರುಕುಗಳಿದ್ದರೆ ದಯವಿಟ್ಟು ಆಯ್ಕೆಮಾಡಿ",
-    "comprehensiveWarrantyText": "You are registering for a comprehensive warranty. Please note that all the information entered by you will be communicated to the customer. Would you like to continue?",
-    "projectClose": "Project Closed Successfully!",
-    "projectCloseText": "All project details have been archived. You can view the archived projects anytime.",
-    "ProductDeletedSuccessfully": "Product Deleted Successfully",
-    "projectChecklist": "Project Details",
+    "comprehensiveWarrantyText": "ನೀವು ಕಾಂಪ್ರಹೆನ್ಸಿವ್ ವಾರೆಂಟಿಗಾಗಿ ರಿಜಿಸ್ಟರ್ ಮಾಡಿಕೊಳ್ಳುತ್ತಿದ್ದೀರಿ. ನೀವು ಭರ್ತಿಮಾಡಿದ  ಎಲ್ಲಾ ಮಾಹಿತಿಯನ್ನು ಗ್ರಾಹಕರಿಗೆ ತಿಳಿಸಲಾಗುತ್ತದೆ ಎನ್ನುವುದನ್ನು ದಯವಿಟ್ಟು ಗಮನಿಸಿ. ನೀವು ಮುಂದುವರಿಸಲು ಬಯಸುವಿರಾ?",
+    "projectClose": "ಯೋಜನೆ ಯಶಸ್ವಿಯಾಗಿ ಮುಚ್ಚಲಾಗಿದೆ!",
+    "projectCloseText": "ಎಲ್ಲಾ ಪ್ರಾಜೆಕ್ಟ್ ನ ವಿವರಗಳನ್ನು ಆರ್ಕೈವ್ ಮಾಡಲಾಗಿದೆ. ನೀವು ಯಾವುದೇ ಸಮಯದಲ್ಲಿ ಆರ್ಕೈವ್ ಮಾಡಿದ ಪ್ರಾಜೆಕ್ಟ್ ಗಳನ್ನು ನೋಡಬಹುದು.",
+    "ProductDeletedSuccessfully": "ಪ್ರಾಡಕ್ಟ್ ಅನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಡಿಲೀಟ್ ಮಾಡಲಾಗಿದೆ",
+    "projectChecklist": "ಪ್ರಾಜೆಕ್ಟ್ ನ ವಿವರಗಳು",
     "warrantyPreparationChecklist": "Warranty Preparation Checklist",
     "comprehensiveWarrantyRegistrationdesc": "You are registering for a comprehensive warranty. Please note that all the information entered by you will be communicated to the customer. Would you like to continue?",
     "projecttaggederrors": "The product was scanned earlier than the allowed timeframe for tagging to the warranty.",
     "viewsummarytaggedproject": "Tap 'View Summary' for more details.",
-    "paintablearea": "What is Paintable area?"
+    "paintablearea": "What is Paintable area?",
+    "maxValueError": "Max value should not be more than 1000000",
+    "comprehensiveWarrantyHeaderText": "Comprehensive Warranty Registration",
+    "sqft": "ಚದರ ಅಡಿ"
   },
   "mobileNumber": "ಮೊಬೈಲ್ ನಂಬರ್ ",
   "name": "ಹೆಸರು",
@@ -883,6 +890,10 @@
     "AllField": "ದಯವಿಟ್ಟು ಅಗತ್ಯವಿರುವ ಜಾಗವನ್ನು ಭರ್ತಿ ಮಾಡಿ"
   },
   "singleScan": "ಕ್ಯಾಶ್‌ಟೋಕನ್‌ಗಳನ್ನು ಪ್ರಾಜೆಕ್ಟ್ ಗೆ ಲಿಂಕ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ.",
-  "sendOtp": "Send OTP",
-  "addProductDetail": "ಪ್ರಾಜೆಕ್ಟ್ ನ ಪ್ರಕ್ರಿಯೆಯನ್ನು ಮುಂದುವರಿಸಲು ದಯವಿಟ್ಟು ಕನಿಷ್ಠ ಒಂದು ಪ್ರಾಡಕ್ಟ್ ಸೇರಿಸಿ. ಮಾಹಿತಿಯ ಸಂಪೂರ್ಣ ಗೋಚರತೆಯನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಲು ಈ ಸಂದೇಶವು ಬಹು ಸಾಲುಗಳಲ್ಲಿ ಕಾಣುತ್ತದೆ."
+  "sendOtp": "OTP ಕಳುಹಿಸಿ",
+  "addProductDetail": "ಪ್ರಾಜೆಕ್ಟ್ ನ ಪ್ರಕ್ರಿಯೆಯನ್ನು ಮುಂದುವರಿಸಲು ದಯವಿಟ್ಟು ಕನಿಷ್ಠ ಒಂದು ಪ್ರಾಡಕ್ಟ್ ಸೇರಿಸಿ. ಮಾಹಿತಿಯ ಸಂಪೂರ್ಣ ಗೋಚರತೆಯನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಲು ಈ ಸಂದೇಶವು ಬಹು ಸಾಲುಗಳಲ್ಲಿ ಕಾಣುತ್ತದೆ.",
+  "architectId": "Architect ID",
+  "locked": "This feature is currently locked",
+  "pincodeerror": "Please enable location services to fetch the pincode.",
+  "termsAndPrivacyAgreement": "ಮುಂದುವರಿಯುವ ಮೂಲಕ, ನಾನು <terms>ನಿಯಮಗಳು ಮತ್ತು ಷರತ್ತುಗಳು</terms> ಮತ್ತು <privacy>ಗೌಪ್ಯತಾ ನೀತಿ</privacy> ಗೆ ಒಪ್ಪುತ್ತೇನೆ."
 }

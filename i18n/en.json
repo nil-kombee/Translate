@@ -123,6 +123,7 @@
   "otherways": "Other ways",
   "comingsoon": "coming soon",
   "codeScanned": "Code scanned",
+  "termsAndPrivacyAgreement": "By continuing, I agree to the <terms>Terms & Conditions</terms> and the <privacy>Privacy Policy</privacy>.",
   "codeScannedConfirmText": "If the code isn't scanned properly, you can edit it",
   "confirm": "Confirm",
   "retry": "Retry",
@@ -836,6 +837,7 @@
     "comprehensiveWarrantyRegistration": "Birla Opus Assurance Registration",
     "comprehensiveWarrantyRegistrationdesc": "You are registering for Birla Opus Assurance. Would you like to continue?",
     "warrantyIssuance": "Opus Assurance Issurance",
+    "comprehensiveWarrantyHeaderText": "Comprehensive Warranty Registration",
     "comprehensiveWarrantyText": "You are registering for a comprehensive Opus Assurance. Please note that all the information entered by you will be communicated to the customer. Would you like to continue?",
     "labourCharges": "Labour charges",
     "backToHome": "Back to Home",
@@ -865,7 +867,8 @@
     "projectClose": "Project Closed Successfully!",
     "projectCloseText": "All project details have been archived. You can view the archived projects anytime.",
     "ProductDeletedSuccessfully": "Product Deleted Successfully",
-    "maxValueError": "Max value should not be more than 1000000"
+    "maxValueError": "Max value should not be more than 1000000",
+    "sqft": "sq ft"
   },
   "mobileNumber": "Mobile Number",
   "name": "Name",

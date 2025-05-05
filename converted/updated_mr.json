@@ -172,7 +172,7 @@
     "lblSignupDesc1": "आयबीलॉगइनडेस्क1 ",
     "lblSignupDesc2": "हा नंबर आमच्याकडे नोंदणीकृत नाही. तुम्ही साईन अप करू इच्छित असल्यास, कृपया सुरू ठेवा.",
     "and": "आणि",
-    "byContinuing": "सुरू ठेवून",
+    "byContinuing": "सुरू ठेवून, मी सहमत आहे",
     "60seconds": "कृपया 60 सेकंदानंतर पुन्हा प्रयत्न करा"
   },
   "welcomeScreen": {
@@ -268,7 +268,7 @@
       "required": "कृपया पॅन क्रमांक टाका"
     },
     "ifscdetails": {
-      "valid": "कृपया वैध पॅन क्रमांक टाका",
+      "valid": "कृपया वैध IFSC क्रमांक एंटर करा",
       "required": "आयएफएससी कोड आवश्यक आहे",
       "notmatch": "खाते क्रमांक जुळत नाही"
     },
@@ -291,7 +291,7 @@
     "lblBankAccountNumber": "बँक खाते क्रमांक",
     "lblReBankAccountNumber": "बँक खाते क्रमांक पुन्हा टाका",
     "lblIFSCCode": "आयएफएससी कोड",
-    "lblDescription": "तुमच्या बँक खात्याची पडताळणी करण्यासाठी, आम्ही तुमच्या खात्यात â‚¹1 जमा करू",
+    "lblDescription": "तुमचे बँक खाते पडताळण्यासाठी, आम्ही तुमच्या खात्यात ₹१ क्रेडिट करू.",
     "lblCheckDescription": "मी या पडताळणी प्रक्रियेला संमती देतो"
   },
   "confirmBankDetailsScreen": {
@@ -350,11 +350,11 @@
     "lblGuideDescription": " क्यूआर कोड फ्रेममध्ये ठेवा",
     "lblScanFromGallery": "गॅलरीमधून स्कॅन करा",
     "lblOrText": "किंवा मानवीयरित्या कोड टाका",
-    "lblViewScanDetails": "स्कॅनचा तपशील बघा",
+    "lblViewScanDetails": "सारांश पहा",
     "alltransaction": "सर्व व्यवहार बघा"
   },
   "scanDetailsScreen": {
-    "lblTitle": "तपशील स्कॅन करा"
+    "lblTitle": "उत्पादन सारांश"
   },
   "pointHistoryScreen": {
     "lblTitle": "व्यवहारांचा इतिहास"
@@ -409,7 +409,7 @@
     "addNewBank": "नवीन बँक खाते जोडा",
     "accountDeleted": "खाते हटवले",
     "deleteAccountConfirmationMsg": "तुमचे खाते हटवत आहात?",
-    "deleteAccountWarnMsg": "",
+    "deleteAccountWarnMsg": "अकाउंट डिलीट झालंय",
     "deleteBankAccountConfirmationMsg": "तुम्हाला नक्की तुमचे बँक खाते हटवायचे आहे का?",
     "deleteUpiIdAccountConfirmationMsg": "तुम्हाला नक्की हा युपीआय आयडी हटवायचा आहे का?",
     "otpInputDescription": "ही क्रिया पूर्ण करण्यासाठी कृपया तुमच्या फोन नंबरवर पाठवलेला 6 अंकी ओटीपी टाका",
@@ -444,7 +444,9 @@
     "selectPaymentMethodToReceive": "स्वीकारण्यासाठी पेमेंटची पद्धत निवडा",
     "transactionid": "व्यवहार आयडी ",
     "couponCode": "कूपन कोड",
-    "rupees": "रुपये"
+    "rupees": "रुपये",
+    "MinRedPoint": "For redeeming the first time, you need minimum",
+    "MinRedRupee": "For redeeming the first time, you need an amount of minimum Rs."
   },
   "howItWork": {
     "lblTitle": "याचे काम कसे चालते ",
@@ -495,7 +497,8 @@
     "requestSentTo": "यांना विनंती पाठवली",
     "newTeamMemberAdded": "टीममध्ये नवीन सदस्य जोडला आहे ",
     "searchmember": "मेंबर्स शोधा",
-    "searchdealer": "डीलर्स शोधा"
+    "searchdealer": "डीलर्स शोधा",
+    "add": "Add "
   },
   "addpaymentmethod": {
     "addpaymentmethod": "पेमेंट मेथड जोडा",
@@ -527,9 +530,9 @@
     "enterpoints": "विमोचन करण्याच्या पॉईंट्सची संख्या टाका",
     "minimumpoints": "पॉईंट्स विमोचित करण्यासाठी आवश्यक असलेल्या किमान रकमेपेक्षा कमी आहेत",
     "minimumpointsrupees": "प्रविष्ट केलेली रक्कम रिडेम्प करण्यासाठी न्यूनतम रक्कमपेक्षा कमी आहे",
-    "raiseanissue": "समस्या मांडा",
+    "raiseanissue": "समस्या नोंदवा",
     "issueonscan": "कोड टेक्स्टबॉक्समध्ये मॅन्युअली टाका. मदतीसाठी संपर्क करा.",
-    "Clickablelink": " ग्राहक/कस्टमर केअर ",
+    "Clickablelink": "कस्टमर केअर",
     "notlink": "पुढील मदतीसाठी.",
     "troublescan": "स्कॅनिंगमध्ये प्रॉब्लेम?",
     "dbvalidation": "हा QR कोड आधीच स्कॅन झाला आहे",
@@ -556,9 +559,9 @@
     "successcountmessage": "अप्रतिम! तुम्ही क्यूआर कोड स्कॅन केला आहे",
     "unsuccessfulscan": "अयशस्वी स्कॅनविषयी जाणून घेण्यासाठी स्कॅन तपशील पहा",
     "successscan": "आजचे स्कॅनिंग लिमिट उरलेले आहे",
-    "noactivity": "Hi, the QR code scanner couldn’t capture any codes since the past 180 seconds. You will be re-directed to Home screen.",
-    "noactivityheader": "No activity detected",
-    "blocked": "Blocked"
+    "noactivity": "QR कोड स्कॅनर गेल्या 180 सेकंदांपासून कोणताही कोड स्कॅन करू शकला नाही. तुम्हाला आपोआप होम स्क्रीनवर वळवले जाईल.",
+    "noactivityheader": "कोणतीही गतिविधी आढळली नाही",
+    "blocked": "ब्लॉक करण्यात आले"
   },
   "permission": {
     "locationpermission": "स्थान परवानगी",
@@ -627,8 +630,8 @@
   },
   "quicklinks": {
     "comingsoon": "लवकरच\n येत आहे",
-    "colorvisualizer": "रंग दृश्यकर्षक",
-    "traininglearning": "शिक्षण आणि शिकवणे"
+    "colorvisualizer": "कलर व्हिज्युअलायझर\n",
+    "traininglearning": "ट्रेनिंग आणि लर्निंग\n\n"
   },
   "redempoints": "गुण वसूल करा",
   "redemnow": "आता वसूल करा",
@@ -686,7 +689,8 @@
     "feedback": "फीडबॅक द्या",
     "pleaseSelectRating": "",
     "needhelp": "मदतीची गरज आहे का?",
-    "submitIssues": "Submit your issues and get quick resolutions"
+    "submitIssues": "Submit your issues and get quick resolutions",
+    "uploadedimages": "Uploaded images"
   },
   "tdstext": "TDS (स्रोत कर वजावट)",
   "redemerrorpoint": "पॉइंट्स रिडेम्प्शन अयशस्वी झाले. कृपया पुन्हा प्रयत्न करा.",
@@ -723,7 +727,7 @@
     "quickActions": "जलद कृती",
     "estimateBudget": "अंदाजपत्रक",
     "removeInPorfolio": "पोर्टफोलिओमधून काढा",
-    "warrantyRegistration": "प्रकल्प तपशील",
+    "warrantyRegistration": "वॉरंटी ",
     "projectName": "प्रकल्पाचे नाव",
     "customerName": "ग्राहकाचे नाव",
     "customerMobileNumber": "ग्राहकाचा मोबाईल नंबर ",
@@ -733,7 +737,7 @@
     "enterPincode": "प्रोजेक्ट स्थानाचा पिनकोड टाका",
     "enterPincodeDescription": "कृपया तुम्ही प्रकल्पाच्या स्थानावरून ते अपडेट करत असल्याचे सुनिश्चित करा",
     "isArchitectInvolved": "एखादे वास्तुविशारद सामील आहेत का?",
-    "leadType": "लीड चा प्रकार",
+    "leadType": "घर प्रकार",
     "requirement": "आवश्यकता",
     "plzEnterNoOfRooms": "कृपया एकूण खोल्यांची संख्या टाका",
     "plzEnterAddress1": "कृपया पत्त्याची ओळ 1 टाका",
@@ -744,10 +748,10 @@
     "tagToAProject": "एखाद्या प्रकल्पाला टॅग करा",
     "selectProject": "एखादा प्रकल्प निवडा",
     "createProject": "एखादा प्रकल्प तयार करा",
-    "projectSearchText": "नाव, आयडी, फोन नंबर",
+    "projectSearchText": "नाव",
     "projectId": "प्रकल्प आयडी",
     "pleaseNote": "कृपया लक्षात ठेवा:",
-    "noteDescription": "प्रकल्पाच्या बाबतीत तुम्ही सबमिट केलेली सर्व माहिती ग्राहकांसोबत पडताळणीसाठी शेअर केली जाईल. त्याची पडताळणी करण्यासाठी, ग्राहकाला एक ओटीपी मिळेल जो प्रकल्प निर्मितीसाठी टाकणे गरजेचे असेल.",
+    "noteDescription": "तुमची सर्व माहिती पडताळणीसाठी ग्राहकासोबत शेअर केली जाईल आणि पडताळणीसाठी तुम्हाला ग्राहकाकडून ओटीपी घ्यावा लागेल.",
     "customerConfirmation": "ग्राहकाकडून प्रकल्पाची पडताळणी",
     "createProject2": "प्रकल्प तयार करा",
     "projectStatus": "प्रकल्पाची स्थिती",
@@ -771,9 +775,9 @@
     "interiorAndExterior": "आतील आणि बाह्य भाग",
     "addressLine1": "पत्ता",
     "dateRange": "तारीख श्रेणी",
-    "CloseProjectValidation": "You can return here by clicking back and edit it anytime before closing the project.",
-    "Success": "Success",
-    "LeadConvertedSuccessfully": "Lead converted successfully",
+    "CloseProjectValidation": "तुम्ही बॅकवर क्लिक करून पुन्हा येथे परत येऊ शकता आणि प्रोजेक्ट बंद करण्यापूर्वी कधीही एडिट  करू शकता.",
+    "Success": "लीड यशस्वीपणे कन्व्हर्ट झाली",
+    "LeadConvertedSuccessfully": "यशस्वी झाले \n",
     "addprojectDetails": "Add Project Details"
   },
   "mediaSelection": {
@@ -790,8 +794,8 @@
   "save&Continue": "सेव्ह करा आणि सुरू ठेवा",
   "attention": "लक्ष द्या ",
   "warranty": {
-    "warranty": "प्रकल्प",
-    "warrantyChecklist": "प्रकल्प चेकलिस्ट",
+    "warranty": "वॉरंटी",
+    "warrantyChecklist": "वॉरंटी चेकलिस्ट",
     "customerDetails": "ग्राहकाचा तपशील",
     "siteDetails": "प्रकल्पाचा तपशील",
     "leakageOnSite": "साईटवर काही गळती होते आहे का?",
@@ -806,9 +810,9 @@
     "totalPaintableAreaWaterProofing": "वॉटर-प्रूफिंगचे रंगकाम करण्याजोगे क्षेत्रफळ (चौ. फूट मध्ये)",
     "totalPaintableAreaWoodFinishes": "वुड-फिनिशचे रंगकाम करण्याजोगे क्षेत्रफळ (चौ. फूट मध्ये)",
     "totalPaintableArea": "एकूण पेंटिंग एरिया (अंतर्गत आणि बाह्य) (स्क्वेअर फूट)",
-    "plzEnterSiteStartDate": "कृपया साईट सुरु केल्याची तारीख टाका",
+    "plzEnterSiteStartDate": "कृपया वॉरंटी पडताळणी तारीख एंटर करा.",
     "plzEnterSiteEndDate": "कृपया साइट समाप्ती तारीख भरा",
-    "plzEnterSitePreparationChecklist": "कृपया संपूर्ण साईटच्या तयारीची चेकलिस्ट भरा",
+    "plzEnterSitePreparationChecklist": "कृपया वॉरंटी तयारी चेकलिस्ट एंटर करा.",
     "plzEnterTotalPaintableAreaInterior": "कृपया आतील भिंतींचे रंगकाम करण्याजोगे क्षेत्रफळ (चौ. फूट मध्ये) टाका",
     "plzEnterTotalPaintableAreaExterior": "कृपया बाहेरील भिंतींचे रंगकाम करण्याजोगे क्षेत्रफळ (चौ. फूट मध्ये) टाका",
     "plzEnterTotalPaintableAreaWaterProofing": "कृपया वॉटर-प्रूफिंगचे रंगकाम करण्याजोगे क्षेत्रफळ (चौ. फूट मध्ये) टाका",
@@ -823,18 +827,18 @@
     "addFromTransactionHistory": "व्यवहार इतिहासातून जोडा",
     "productAddedSuccessfully": "प्राॅडक्ट यशस्वीरित्या जोडले गेले आहे",
     "siteClosureDateAndTime": "साईट बंद झाल्याची  तारीख",
-    "comprehensiveWarrantyRegistration": "व्यापक प्रकल्प नोंदणी",
-    "comprehensiveWarrantyText": "You are registering for a comprehensive warranty. Please note that all the information entered by you will be communicated to the customer. Would you like to continue?",
-    "warrantyIssuance": "प्रकल्प जारी करणे",
+    "comprehensiveWarrantyRegistration": "व्यापक हमीची नोंदणी",
+    "comprehensiveWarrantyText": "आपण कॉम्प्रिहेन्सिव्ह वॉरंटीसाठी रजिस्टर करत आहात. कृपया लक्षात घ्या की आपल्याद्वारे भरलेली सर्व माहिती ग्राहकाला कळवली जाईल. आपण पुढे जायला इच्छित आहात का?\n",
+    "warrantyIssuance": "हमी देणे",
     "labourCharges": "कामगार शुल्क",
     "backToHome": "प्रकल्पावर परत जा",
     "summary": "सारांश",
     "warrantyChecklistEditableDescription": "कृपया लक्षात ठेवा: प्रकल्प बंद होण्यापूर्वी तुम्ही हे तपशील कधीही बदलू शकता. हे करण्यासाठी, स्क्रीनच्या वरच्या भागात असलेल्या स्टेप ट्रॅकरमधील \"वारंटी चेकलिस्ट\" बटणावर क्लिक करा.",
     "editableDescription": "कृपया लक्षात ठेवा: प्रकल्प बंद होण्यापूर्वी तुम्ही हे तपशील कधीही बदलू शकता. हे करण्यासाठी, स्क्रीनच्या वरच्या भागात असलेल्या स्टेप ट्रॅकरमधील \"वारंटी चेकलिस्ट\" बटणावर क्लिक करा.",
-    "warrantystatus": "प्रकल्प स्टेटस",
+    "warrantystatus": "वॉरंटीचा स्टेटस",
     "viewtaggedproducts": "टॅग केलेली प्रॉडक्ट्स बघा",
     "view": "पाहा",
-    "warrantyOTPverificationInstructionMessage": "प्रोजेक्ट क्लोज करण्यासाठी कस्टमरला पाठवलेला ओ.टी.पी. एंटर करा",
+    "warrantyOTPverificationInstructionMessage": "कृपया वॉरंटी बंद करण्यासाठी ग्राहकांना पाठवलेला OTP एंटर करा.",
     "certifiedContractorsOnly": "फक्त सर्टिफाइड कॉन्ट्रॅक्टर्ससाठी",
     "certifiedWarningDescription": "ही फीचर फक्त उदान सर्टिफाइड कॉन्ट्रॅक्टर्ससाठी आहे",
     "active": " अ‍ॅक्टिव्ह",
@@ -844,19 +848,22 @@
     "paintablescannedpercentage": "पेंट होऊ शकणाऱ्या एरियाची टक्केवारी",
     "waterproofingscannedpercentage": "वॉटरप्रूफिंग एरियाची टक्केवारी",
     "selectProduct": "कृपया किमान एक प्रॉडक्ट निवडा",
-    "addProductDetail": "प्रोजेक्ट प्रक्रियेस पुढे जाण्यासाठी किमान एक प्रॉडक्ट जोडा",
+    "addProductDetail": "वॉरंटी प्रक्रिया पुढे नेण्यासाठी कृपया किमान एक उत्पादन जोडा.",
     "leackageValidation": "प्रोजेक्टमध्ये कोणतेही सक्रिय गळती असल्यास निवडा",
     "moistureValidation": "घराच्या भिंतींवर ओलसरपणा असल्यास निवडा",
     "cracksValidation": "भिंतींवर कोणतेही क्रॅक्स असल्यास निवडा",
-    "projectClose": "Project Closed Successfully!",
-    "projectCloseText": "All project details have been archived. You can view the archived projects anytime.",
-    "ProductDeletedSuccessfully": "Product Deleted Successfully",
-    "projectChecklist": "Project Details",
+    "projectClose": "प्रोजेक्ट यशस्वीरित्या बंद केला गेला आहे. \n",
+    "projectCloseText": "सर्व प्रोजेक्ट तपशील संग्रहित करण्यात आले आहेत. तुम्ही हे संग्रहित प्रोजेक्ट्स कधीही पाहू शकता.",
+    "ProductDeletedSuccessfully": "प्रॉडक्ट यशस्वीपणे डिलीट केले गेले",
+    "projectChecklist": "प्रकल्पाचा तपशील",
     "warrantyPreparationChecklist": "Warranty Preparation Checklist",
     "comprehensiveWarrantyRegistrationdesc": "You are registering for a comprehensive warranty. Please note that all the information entered by you will be communicated to the customer. Would you like to continue?",
     "projecttaggederrors": "The product was scanned earlier than the allowed timeframe for tagging to the warranty.",
     "viewsummarytaggedproject": "Tap 'View Summary' for more details.",
-    "paintablearea": "What is Paintable area?"
+    "paintablearea": "What is Paintable area?",
+    "maxValueError": "Max value should not be more than 1000000",
+    "comprehensiveWarrantyHeaderText": "Comprehensive Warranty Registration",
+    "sqft": "चौ. फूट"
   },
   "mobileNumber": "मोबाईल नंबर",
   "name": "नाव",
@@ -882,6 +889,10 @@
     "AllField": "कृपया आवश्यक माहिती भरा"
   },
   "singleScan": "कॅशटोकन्स प्रोजेक्टशी जोडता येणार नाहीत",
-  "sendOtp": "Send OTP",
-  "addProductDetail": "प्रोजेक्ट सुरू करण्यासाठी किमान एक प्रॉडक्ट ऍड करा. हा मेसेज स्पष्ट दिसण्यासाठी मल्टिपल लाईन्समध्ये दाखवला जाईल."
+  "sendOtp": "OTP पाठवा",
+  "addProductDetail": "प्रोजेक्ट सुरू करण्यासाठी किमान एक प्रॉडक्ट ऍड करा. हा मेसेज स्पष्ट दिसण्यासाठी मल्टिपल लाईन्समध्ये दाखवला जाईल.",
+  "architectId": "Architect ID",
+  "locked": "This feature is currently locked",
+  "pincodeerror": "Please enable location services to fetch the pincode.",
+  "termsAndPrivacyAgreement": "पुढे जाऊन, मी <terms>नियम आणि अटी</terms> आणि <privacy>गोपनीयता धोरण</privacy> यांना सहमती देतो."
 }

@@ -132,10 +132,10 @@
   "newteamrequest": "नई टीम का अनुरोध",
   "goback": "वापस जाएँ",
   "getReferralCode": {
-    "enterCode": "कोड दर्ज करें",
-    "enterReferralCode": "रेफरल कोड दर्ज करें",
-    "haveReferralCodePlzEnterReferralCode": "क्या आपके पास रेफरल कोड है?\nकृपया नीचे दर्ज करें",
-    "plzEnterValidCode": "कृपया वैध रेफरल कोड दर्ज करें"
+    "enterCode": "कोड डालें",
+    "enterReferralCode": "रेफरल कोड डालें",
+    "haveReferralCodePlzEnterReferralCode": "क्या आपके पास रेफरल कोड है?\nकृपया नीचे डालें",
+    "plzEnterValidCode": "कृपया मान्य रेफरल कोड डालें"
   },
   "onboarding": {
     "opusIddetail": "ओपस के साथ ऑनबोर्डिंग को व्यवस्थित करें! तुरंत अपनी यूनिक ओपस आई.डी. बनाएं और इसे ग्राहकों के साथ आसानी से शेयर करें",
@@ -172,7 +172,7 @@
     "lblSignupDesc1": "आइबीएलसाइनअपडेस्क1",
     "lblSignupDesc2": "यह नंबर हमारे साथ रजिस्टर्ड नहीं है। अगर आप साइन अप करना चाहते हैं, तो कृपया जारी रखें।",
     "and": "और",
-    "byContinuing": "जारी रखकर, मैं _से सहमत हूं",
+    "byContinuing": "जारी रखकर, मैं",
     "60seconds": "कृपया 60 सेकंड के बाद दोबारा कोशिश करें"
   },
   "welcomeScreen": {
@@ -268,7 +268,7 @@
       "required": "पैन नंबर डालें।"
     },
     "ifscdetails": {
-      "valid": "मान्य पैन नंबर डालें।",
+      "valid": "मान्य आई.एफ.एस.सी. नंबर डालें।",
       "required": "आई.एफ.एस.सी. कोड आवश्यक है",
       "notmatch": "अकाउंट नंबर मेल नहीं खाता है"
     },
@@ -291,7 +291,7 @@
     "lblBankAccountNumber": "बैंक अकाउंट नंबर",
     "lblReBankAccountNumber": "फिर से बैंक अकाउंट नंबर डालें",
     "lblIFSCCode": "आई.एफ.एस.सी. कोड",
-    "lblDescription": "आपके बैंक अकाउंट को वेरीफाई करने के लिए, हम आपके अकाउंट में â‚¹1 जमा करेंगे।",
+    "lblDescription": "आपके बैंक खाते को सत्यापित करने के लिए, हम आपके खाते में ₹1 जमा करेंगे",
     "lblCheckDescription": "मैं इस वेरिफिकेशन प्रक्रिया से सहमत हूं"
   },
   "confirmBankDetailsScreen": {
@@ -350,11 +350,11 @@
     "lblGuideDescription": "क्यू.आर. कोड को फ्रेम के अंदर रखें",
     "lblScanFromGallery": "गैलरी से स्कैन करें",
     "lblOrText": "या मैन्युअल तरीके से कोड डालें",
-    "lblViewScanDetails": "स्कैन विवरण देखें",
+    "lblViewScanDetails": "सारांश देखें",
     "alltransaction": "सभी ट्रांज़ैक्शन देखें"
   },
   "scanDetailsScreen": {
-    "lblTitle": "विवरण स्कैन करें"
+    "lblTitle": "उत्पाद सारांश"
   },
   "pointHistoryScreen": {
     "lblTitle": "ट्रांज़ैक्शन हिस्ट्री"
@@ -409,7 +409,7 @@
     "addNewBank": "नया बैंक अकाउंट जोड़ें",
     "accountDeleted": "अकाउंट डिलीट कर दिया गया है",
     "deleteAccountConfirmationMsg": "अकाउंट डिलीट कर रहे हैं?",
-    "deleteAccountWarnMsg": "",
+    "deleteAccountWarnMsg": "अकाउंट डिलीट कर दिया गया है",
     "deleteBankAccountConfirmationMsg": "क्या आप यह बैंक अकाउंट डिलीट करना चाहते हैं?",
     "deleteUpiIdAccountConfirmationMsg": "क्या आप इस यू.पी.आई. आई.डी. को डिलीट करना चाहते हैं?",
     "otpInputDescription": "इस कार्य को पूरा करने के लिए कृपया आपके फोन नंबर पर भेजा गया 6 अंकों का ओटीपी डालें",
@@ -444,7 +444,11 @@
     "selectPaymentMethodToReceive": "प्राप्त करने के लिए पेमेंट का तरीका चुनें",
     "transactionid": "ट्रांज़ैक्शन आई.डी.",
     "couponCode": "कूपन कोड",
-    "rupees": "रुपये"
+    "rupees": "रुपये",
+    "MinRedPoint": "For redeeming the first time, you need minimum",
+    "MinRedRupee": "For redeeming the first time, you need an amount of minimum Rs.",
+    "MinRedRupeelast": "रुपये की राशि होनी चाहिए।",
+    "MinRedPointlast": "अंक चाहिए।"
   },
   "howItWork": {
     "lblTitle": "यह किस तरह से काम करता है?",
@@ -481,27 +485,28 @@
     "opuscard": "अपनी प्रोफाइल पर एक्सेस करें, फायदों का आनंद लें, इसे अपने डिजिटल विजिटिंग कार्ड के के तौर पर शेयर करें, साथ में और भी बहुत कुछ पाएं",
     "completekyc": "ओपस फायदे पाने के लिए अपनी केवाईसी पूरी करें",
     "cameraScan": "कैमरा स्कैन",
-    "cameraDescription": "अपने फोन के कैमरा का उपयोग करके क्यू.आर. कोड को स्कैन करें।",
+    "cameraDescription": "QR कोड को स्कैन करने के लिए अपने फोन के कैमरे का उपयोग करें।",
     "galleryScan": "गैलरी स्कैन",
-    "galleryDescription": "अपनी गैलरी से क्यू.आर. कोड छवि का चयन करें",
-    "manualEntry": "मैनुअल एंट्री",
-    "manualEntryDescription": "स्क्रीन कुंजीपटल का उपयोग करके कोड टाइप करें।",
-    "flashlight": "फ्लैशलाइट",
-    "flashlightDescription": "कम प्रकाश में बेहतर स्कैनिंग के लिए फ्लैशलाइट को चालू करें! स्कैनर स्क्रीन पर फ्लैशलाइट आइकन पर टैप करें।"
+    "galleryDescription": "अपनी गैलरी से QR कोड इमेज चुनें",
+    "manualEntry": "मैन्युअल एंट्री",
+    "manualEntryDescription": "ऑन-स्क्रीन कीबोर्ड का उपयोग करके कोड टाइप करें।",
+    "flashlight": "फ़्लैशलाइट",
+    "flashlightDescription": "कम रोशनी में बेहतर स्कैनिंग के लिए फ़्लैशलाइट चालू करें! स्कैनर स्क्रीन पर फ़्लैशलाइट आइकन को टैप करें।"
   },
   "myTeams": {
     "toYourDealersList": "आपके डीलर्स लिस्ट में?",
-    "isNowDealerList": "_अब आपकी डीलर्स लिस्ट में है",
-    "requestSentTo": "_को अनुरोध भेजा गया",
+    "isNowDealerList": "अब आपकी डीलर्स लिस्ट में है",
+    "requestSentTo": "को अनुरोध भेजा गया",
     "newTeamMemberAdded": "नया टीम मेंबर जोड़ा गया।",
-    "searchmember": "सदस्य खोजें",
-    "searchdealer": "डीलर खोजें"
+    "searchmember": "सदस्य सर्च करें",
+    "searchdealer": "डीलर सर्च करें",
+    "add": "Add "
   },
   "addpaymentmethod": {
-    "addpaymentmethod": "भुगतान विधि जोड़ें",
-    "paymentmethod": "भुगतान विधियाँ",
-    "redeempoint": "कृपया अंकों को रिडीम करने के लिए भुगतान विधि जोड़ें",
-    "redeemrupees": "कृपया रुपये रिडीम करने के लिए भुगतान विधि जोड़ें"
+    "addpaymentmethod": "पेमेंट का तरीका जोड़ें",
+    "paymentmethod": "पेमेंट के तरीके",
+    "redeempoint": "पॉइंट रिडीम करने के लिए कृपया पेमेंट का तरीका जोड़ें",
+    "redeemrupees": "रुपये रिडीम करने के लिए कृपया पेमेंट का तरीका जोड़ें"
   },
   "earningerrors": {
     "invalidImage": "कोड स्कैन नहीं हो रहा",
@@ -527,27 +532,27 @@
     "enterpoints": "रिडीम किए जाने वाले पॉइंट्स की संख्या डालें",
     "minimumpoints": "पॉइंट रिडीम करने के लिए आवश्यक न्यूनतम मात्रा से कम हैं",
     "minimumpointsrupees": "दी गई राशि रिडीम करने के लिए आवश्यक न्यूनतम राशि से कम है",
-    "raiseanissue": "कोई समस्या उठाएं",
-    "issueonscan": "लगता है कैमरा कोड को कैप्चर करने में कठिनाई का सामना कर रहा है। आप नीचे दिए गए पाठ बॉक्स में कोड को मैन्युअल रूप से दर्ज करने की कोशिश कर सकते हैं या उसी को फोटो से अपलोड कर सकते हैं। अगर यह मदद नहीं करता है तो मुद्दा उठाएं।",
-    "Clickablelink": "ग्राहक देखभाल",
-    "notlink": "आगे की सहायता के लिए.",
-    "troublescan": "स्कैन करने की कोशिश कर रहे हैं?",
-    "dbvalidation": "आपने पहले से ही इस क्यू.आर. कोड को स्कैन किया है",
-    "dbvalidationdetail": "अधिक जानकारी के लिए कृपया अपना लेन-देन इतिहास देखें या अपने टीएसएम से संपर्क करें",
-    "invalidloyalty": "स्कैन किया गया उत्पाद वफादारी योजना का हिस्सा नहीं है। कृपया अधिक डिटेल्स के लिए अपने टीएसएम से संपर्क करें।",
-    "invalidloyalty1": "हम इस क्यू.आर. कोड को अपने रिकॉर्ड में नहीं खोज पाए। कृपया सहायता के लिए अपने टीएसएम कोक्यू.आर. कोड की एक तस्वीर भेजें।",
-    "backendissue": "उफ़! हमें कुछ बैकएंड समस्याओं का सामना करना पड़ रहा है। कृपया बाद में पुनः प्रयास करें।",
-    "notbirlaopusproduct": "कृपया लॉयल्टी पॉइंट्स अर्जित करने के लिए बिरला ओपस उत्पाद स्कैन करें।"
+    "raiseanissue": "कोई समस्या उठाएँ",
+    "issueonscan": "टेक्स्टबॉक्स में मैन्युअल तरीके से कोड डालें। मदद चाहिए? सहायता के लिए",
+    "Clickablelink": "ग्राहक सेवा",
+    "notlink": "से संपर्क करें।",
+    "troublescan": "स्कैन करने में समस्या आ रही है?",
+    "dbvalidation": "आप पहले ही इस QR कोड को स्कैन कर चुके हैं",
+    "dbvalidationdetail": "कृपया अपनी ट्रांज़ैक्शन हिस्ट्री चेक करें या अधिक जानकारी के लिए अपने टी.एस.एम. से बात करें। ",
+    "invalidloyalty": "स्कैन किया गया प्रोडक्ट लॉयल्टी स्कीम का हिस्सा नहीं है। अधिक जानकारी के लिए कृपया अपने टी.एस.एम. से संपर्क करें। ",
+    "invalidloyalty1": "हम अपने रिकॉर्ड में इस QR कोड को लोकेट नहीं कर पाए। इसमें सहायता के लिए कृपया अपने टी.एस.एम. को QR कोड की फोटो भेजें।",
+    "backendissue": "ओह! हमें कुछ बैकएंड से जुड़ी समस्याएं आ रही हैं। कृपया बाद में फिर से कोशिश करें।",
+    "notbirlaopusproduct": "लॉयल्टी पॉइंट पाने के लिए कृपया बिरला ओपस प्रोडक्ट को स्कैन करें।"
   },
   "Referal": {
-    "title": "अपने साथी पेंट विशेषज्ञों को रेफ़र करें",
+    "title": "अपने साथी पेंट विशेषज्ञों को रेफर करें",
     "copycode": "अपना कोड कॉपी करें",
-    "invite": "आमंत्रित करें",
-    "viewdetails": "डिटेल्स देखें",
-    "invitedcontacts": "आमंत्रित लोग",
+    "invite": "इनवाइट करें",
+    "viewdetails": "विवरण देखें",
+    "invitedcontacts": "इनवाइट किए गए कॉन्टेक्ट्स",
     "registered": "रजिस्टर्ड",
     "approved": "अप्रूव्ड",
-    "buttontitle": "अपने साथी मित्रों को अभी रेफ़र करें"
+    "buttontitle": "अपने साथी पेंटर्स को अभी रेफर करें"
   },
   "earningsuccess": {
     "pendingcount": "क्यू.आर. कोड सफलतापूर्वक स्कैन हो गया और अप्रूवल के लिए भेज दिया गया है",
@@ -555,10 +560,10 @@
     "successcount": "क्यू.आर. कोड सफलतापूर्वक स्कैन हो गया है",
     "successcountmessage": "बहुत बढ़िया! आपने क्यू.आर. कोड स्कैन कर लिया है",
     "unsuccessfulscan": "असफल स्कैन के बारे में जानने के लिए स्कैन विवरण देखें।",
-    "successscan": "सफल स्कैन बाकी हैं दिन के",
-    "noactivity": "Hi, the QR code scanner couldn’t capture any codes since the past 180 seconds. You will be re-directed to Home screen.",
-    "noactivityheader": "No activity detected",
-    "blocked": "Blocked"
+    "successscan": "आज के लिए बचे सफल स्कैन",
+    "noactivity": "नमस्ते, QR कोड स्कैनर पिछले 180 सेकंड से कोई कोड कैप्चर नहीं कर सका। आपको होम स्क्रीन पर ले जाया जाएगा।",
+    "noactivityheader": "कोई एक्टिविटी नहीं पाई गई",
+    "blocked": "ब्लॉक किया गया है"
   },
   "permission": {
     "locationpermission": "लोकेशन की अनुमति",
@@ -568,20 +573,20 @@
     "openSetting": "सेटिंग खोलें",
     "cameraaccess": "कैमरा पर एक्सेस की अनुमति दें",
     "allowcameraaccess": "बेहतर अनुभव पाने के लिए ओपस आई.डी. को आपके कैमरा पर एक्सेस की अनुमति दें।",
-    "noCameraAccess": "कोई कैमरा एक्सेस नहीं!",
-    "location": "बेहतर अनुभव के लिए ओपस आईडी को आपकी स्थान तक पहुँच देने दें।"
+    "noCameraAccess": "कैमरा एक्सेस की अनुमति दें",
+    "location": "बेहतर अनुभव के लिए ओपस आई.डी. को अपने कैमरा का एक्सेस दें। "
   },
   "geofencing": {
     "title": "इस क्षेत्र में स्कैनिंग पर प्रतिबंध है।",
     "description": "इस स्थान पर उत्पाद स्कैनिंग निषेधित है। कृपया उत्पाद को स्थान पर ही स्कैन करें।"
   },
   "selfenrolment": {
-    "rejecttitle": "आपका प्रोफ़ाइल अस्वीकृत हो गया है",
-    "rejectdesc": "एप्लिकेशन तक पहुंचने के लिए, कृपया अपना प्रोफ़ाइल अपडेट करें",
-    "pendingtitle": "आपका प्रोफ़ाइल मंजूरी के अंतर्गत है",
-    "pendingdesc": "प्रोफ़ाइल की मंजूरी की प्रतीक्षा में है। डिटेल्स के लिए हेल्पडेस्क से संपर्क करें",
-    "approvaltitle": "आपकी प्रोफ़ाइल स्वीकृत हो गई है",
-    "notcomplete": "आपकी प्रोफ़ाइल अभी पूरी नहीं हुई है"
+    "rejecttitle": "आपकी प्रोफाइल को अस्वीकार कर दिया गया है",
+    "rejectdesc": "एप्लीकेशन पर एक्सेस के लिए कृपया अपनी प्रोफाइल अपडेट करें",
+    "pendingtitle": "आपकी प्रोफाइल का अप्रूवल के लिए रिव्यु चल रहा है",
+    "pendingdesc": "प्रोफाइल अप्रूवल के लिए पेंडिंग है। जानकारी के लिए हेल्पडेस्क से संपर्क करें",
+    "approvaltitle": "आपकी प्रोफाइल अप्रूव हो गई है",
+    "notcomplete": "आपकी प्रोफाइल अभी पूरी नहीं हुई है"
   },
   "language": {
     "lblTitle": "भाषा",
@@ -618,9 +623,9 @@
     "opushome": "ओपस होम"
   },
   "quicklinks": {
-    "comingsoon": "जल्द ही",
-    "colorvisualizer": "रंग विज़ुअलाइज़र",
-    "traininglearning": "प्रशिक्षण एवं सीखना"
+    "comingsoon": "जल्द आ रहा है",
+    "colorvisualizer": "कलर विज़ुअलाइज़र",
+    "traininglearning": "ट्रेनिंग और लर्निंग"
   },
   "redempoints": "अंक रिडीम करें",
   "redemnow": "रिडीम करें",
@@ -633,15 +638,15 @@
   "entries": "रेकार्ड",
   "amounttds": "टीडीएस के कारण नेट राशि भिन्न हो सकती है",
   "kycpopup": {
-    "enterprofile": "प्रोफ़ाइल डिटेल्स दर्ज करें",
-    "kyc": "के.वाई.सी पर जाएं",
-    "pandetails": "पैन डिटेल्स दर्ज करें",
-    "compltekyc": "अपना के.वाई.सी पूरा करें",
-    "profiledetailrequired": "प्रोफ़ाइल डिटेल्स आवश्यक हैं",
-    "providepandetail": "कृपया अपना पैन डिटेल्स दें।",
-    "profiledetail": "इस सुविधा तक पहुँच पाने के लिए, कृपया अपने प्रोफ़ाइल डिटेल्स जोड़ें।",
-    "completekycDetails": "कृपया इस सुविधा तक पहुँच पाने के लिए अपना के.वाई.सी पूरा करें।",
-    "tdsdetail": "अगर पैन डिटेल्स प्रदान नहीं किए गए हैं, तो अनुभाग 194R के अनुसार 20% टी.डी.एस लागू है।"
+    "enterprofile": "प्रोफाइल विवरण डालें",
+    "kyc": "के.वाई.सी.  पर जाएँ",
+    "pandetails": "पैन विवरण डालें",
+    "compltekyc": "अपनी के.वाई.सी. पूरी करें",
+    "profiledetailrequired": "प्रोफाइल विवरण ज़रूरी है",
+    "providepandetail": "कृपया अपना पैन विवरण दें।",
+    "profiledetail": "इस फीचर का उपयोग करने के लिए, कृपया अपना प्रोफाइल विवरण जोड़ें।",
+    "completekycDetails": "इस फीचर का उपयोग करने के लिए कृपया अपनी के.वाई.सी. पूरी करें।",
+    "tdsdetail": "अगर पैन विवरण नहीं दिया जाता है, तो सेक्शन 194R के अनुसार 20% टी.डी.एस. लागू होता है।"
   },
   "redemptionnotavailable": "जब तक हम आपकी प्रोफाइल को रिव्यु नहीं कर देते, तब तक रिडेम्पशन उपलब्ध नहीं है। धीरज रखने के लिए धन्यवाद!",
   "scanretrict": "स्कैनिंग प्रतिबंधित है",
@@ -654,12 +659,12 @@
   "redemerrorrupees": "रुपये रिडीम करना असफल रहा। कृपया दोबारा कोशिश करें।",
   "removecontractor": "प्राथमिक ठेकेदार को हटाने के लिए कोई और ठेकेदार जोड़ें।",
   "profilecompletion": {
-    "header": "प्रोफ़ाइल पूर्णता",
-    "businessinfo": "व्यवसाय जानकारी",
-    "kycdetails": "के.वाई.सी डिटेल्स",
+    "header": "प्रोफाइल पूरी होना",
+    "businessinfo": "बिज़नेस की जानकारी",
+    "kycdetails": "के.वाई.सी. विवरण",
     "yourteam": "आपकी टीम",
-    "completed": "पूर्ण",
-    "pending": "लंबित"
+    "completed": "पूरा हुआ",
+    "pending": "पेंडिंग है"
   },
   "raiseanissue": {
     "issues": "शिकायतें",
@@ -668,7 +673,7 @@
     "openissues": "खुली शिकायतें",
     "closedissues": "बंद शिकायतें",
     "raisetransactionissues": "लेन-देन से संबंधित शिकायत दर्ज करें",
-    "raiseanissue": " ",
+    "raiseanissue": "कोई समस्या उठाएँ",
     "yourissue": "हमें अपने मुद्दे के बारे में बताएं. हम इसे शीघ्र ठीक करने में आपकी सहायता करने का प्रयास करेंगे.",
     "selecttransaction": "शिकायत दर्ज करने के लिए रिकॉर्ड चुनें",
     "pleasegivethedetail": "कृपया हमें अधिक जानकारी दें",
@@ -687,33 +692,35 @@
     "ratingdescription": "समस्या समाधान प्रक्रिया से आप कितने संतुष्ट हैं?",
     "addimage": "चित्र जोड़ें",
     "type": "प्रकार",
-    "feedback": "प्रतिक्रिया सबमिट करें",
+    "feedback": "फीडबैक सबमिट करें",
     "pleaseSelectRating": "",
-    "needhelp": "मदद की ज़रूरत है?"
+    "needhelp": "मदद चाहिए?",
+    "submitIssues": "Submit your issues and get quick resolutions",
+    "uploadedimages": "Uploaded images"
   },
   "in": "में",
   "sec": "सेकंड",
   "myProject": {
     "nameOrIdOrNumber": "नाम",
-    "projects": "परियोजनाएं",
-    "project": "परियोजना",
-    "createNewProject": "नई परियोजना बनाएं"
+    "projects": "प्रोजेक्ट",
+    "project": "प्रोजेक्ट",
+    "createNewProject": "नया प्रोजेक्ट बनाएं"
   },
   "myLeads": {
     "myLeads": "मेरी लीड्स",
     "convertToProject": "प्रोजेक्ट में बदलें",
-    "leads": "लीड्स",
-    "lead": "लीड"
+    "leads": "मेरी लीडस्",
+    "lead": "लीड्स"
   },
   "myPortfolio": {
     "myPortfolio": "मेरा पोर्टफोलियो",
-    "requires": "आवश्यकताएं",
+    "requires": "आवश्यकताएँ",
     "type": "प्रकार",
     "floorArea": "फ्लोर एरिया",
     "address": "पता",
-    "warrantyRegistered": "वारंटी पंजीकृत",
-    "downloadPDF": "पीडीएफ डाउनलोड करें",
-    "ratings": "रेटिंग्स"
+    "warrantyRegistered": "वारंटी रजिस्टर्ड",
+    "downloadPDF": "पी.डी.एफ. डाउनलोड करें",
+    "ratings": "रेटिंग"
   },
   "projectDetails": {
     "interior": "इंटीरियर",
@@ -732,7 +739,7 @@
     "enterPincode": "प्रोजेक्ट लोकेशन का पिनकोड डालें",
     "enterPincodeDescription": "कृपया ध्यान दें आप प्रोजेक्ट की लोकेशन के लिए भी यह अपडेट कर रहे हैं",
     "isArchitectInvolved": "क्या कोई आर्किटेक्ट भी शामिल है?",
-    "leadType": "लीड का प्रकार",
+    "leadType": "मकान का प्रकार",
     "requirement": "आवश्यकता है",
     "plzEnterNoOfRooms": "कृपया कमरों की कुल संख्या डालें",
     "plzEnterAddress1": "पते की लाइन 1 डालें",
@@ -743,10 +750,10 @@
     "tagToAProject": "किसी प्रोजेक्ट को टैग करें",
     "selectProject": "कोई प्रोजेक्ट चुनें",
     "createProject": "प्रोजेक्ट बनाएं",
-    "projectSearchText": "नाम, आईडी, फोन नंबर",
+    "projectSearchText": "नाम",
     "projectId": "प्रोजेक्ट आईडी",
     "pleaseNote": "कृपया ध्यान दें:",
-    "noteDescription": "प्रोजेक्ट के लिए आपके द्वारा सबमिट की गई सभी जानकारी वेरिफिकेशन के लिए ग्राहक के साथ शेयर की जाएगी। इसे वेरीफाई करने के लिए ग्राहक को एक OTP मिलेगा और प्रोजेक्ट बनाने के लिए वह OTP डालना होगा।",
+    "noteDescription": "कि आपकी सभी जानकारी ग्राहक के साथ सत्यापन के लिए साझा की जाएगी और आपको सत्यापन के लिए ग्राहक से ओटीपी प्राप्त करना होगा",
     "customerConfirmation": "ग्राहक द्वारा प्रोजेक्ट वेरिफिकेशन",
     "createProject2": "प्रोजेक्ट बनाएं",
     "projectStatus": "प्रोजेक्ट का स्टेटस",
@@ -760,19 +767,20 @@
     "projectOTPverificationInstructionMessage": "ग्राहक को एक OTP भेजा गया है। प्रोजेक्ट को रजिस्टर करने के लिए, कृपया ग्राहक से OTP लें और उसे नीचे सबमिट करें-",
     "customerFirstName": "ग्राहक का पहला नाम",
     "customerLastName": "ग्राहक का अंतिम नाम",
-    "productTagSuccessMessage": "उत्पाद को परियोजना में सफलतापूर्वक टैग किया गया",
-    "tocommence": "शुरू करने के लिए",
+    "productTagSuccessMessage": "प्रोडक्ट को सफलतापूर्वक प्रोजेक्ट में टैग किया गया",
+    "tocommence": "शुरू करना है",
     "underway": "चल रहा है",
     "completed": "पूरा हुआ",
-    "draft": "मसौदा",
+    "draft": "ड्राफ्ट",
     "from": "से",
     "to": "तक",
     "interiorAndExterior": "आंतरिक एवं बाह्य",
     "addressLine1": "पता",
     "dateRange": "तिथि सीमा",
-    "CloseProjectValidation": "You can return here by clicking back and edit it anytime before closing the project.",
-    "Success": "Success",
-    "LeadConvertedSuccessfully": "Lead converted successfully"
+    "CloseProjectValidation": "आप बैक पर क्लिक करके यहां वापस आ सकते हैं और प्रोजेक्ट बंद करने से पहले कभी भी इसे एडिट कर सकते हैं।",
+    "Success": "लीड सफलतापूर्वक बदल दी गई है",
+    "LeadConvertedSuccessfully": "सफल रहा",
+    "addprojectDetails": "Add Project Details"
   },
   "mediaSelection": {
     "Uploadfromgallery": "गैलरी से अपलोड करें",
@@ -803,10 +811,10 @@
     "totalPaintableAreaExterior": "बाहरी दीवारों के लिए कितना एरिया पेंट करना है (वर्ग फीट में)",
     "totalPaintableAreaWaterProofing": "वाटर-प्रूफिंग करने के लिए कितना एरिया पेंट करना है (वर्ग फीट में)",
     "totalPaintableAreaWoodFinishes": "वुड-फिनिश लगाने के लिए कितना एरिया पेंट करना है (वर्ग फीट में)",
-    "totalPaintableArea": "कुल पेंट करने योग्य क्षेत्र (वर्ग फुट)",
-    "plzEnterSiteStartDate": "कृपया साइट शुरू होने की तारीख डालें",
+    "totalPaintableArea": "कुल पेंट करने योग्य एरिया (अंदर का और बाहरी) (वर्ग फीट)",
+    "plzEnterSiteStartDate": "कृपया वारंटी सत्यापन तिथि दर्ज करें",
     "plzEnterSiteEndDate": "कृपया साइट समाप्ति तिथि दर्ज करें",
-    "plzEnterSitePreparationChecklist": "कृपया साइट तैयारी की पूरी चेकलिस्ट भरें",
+    "plzEnterSitePreparationChecklist": "कृपया वारंटी तैयारी चेकलिस्ट दर्ज करें",
     "plzEnterTotalPaintableAreaInterior": "अंदर की दीवारों के लिए कितना एरिया पेंट करना है वह डालें (वर्ग फीट में)",
     "plzEnterTotalPaintableAreaExterior": "बाहरी दीवारों के लिए कितना एरिया पेंट करना है वह डालें (वर्ग फीट में)",
     "plzEnterTotalPaintableAreaWaterProofing": "वाटर-प्रूफिंग करने के लिए कितना एरिया पेंट करना है वह डालें (वर्ग फीट में)",
@@ -828,27 +836,36 @@
     "summary": "सारांश",
     "warrantyChecklistEditableDescription": "कृपया ध्यान दें: आप प्रोजेक्ट बंद होने से पहले कभी भी इन विवरणों को एडिट कर सकते हैं। ऐसा करने के लिए, स्क्रीन में सबसे ऊपर मौजूद स्टेप ट्रैकर में \"वारंटी चेकलिस्ट\" बटन पर क्लिक करें।",
     "editableDescription": "कृपया ध्यान दें: आप प्रोजेक्ट बंद होने से पहले कभी भी इन विवरणों को एडिट कर सकते हैं। ऐसा करने के लिए, स्क्रीन में सबसे ऊपर मौजूद स्टेप ट्रैकर में \"प्रोडक्ट्स जोड़ें\" बटन पर क्लिक करें।",
-    "warrantystatus": "वारंटी स्थिति",
-    "viewtaggedproducts": "टैग किए गए उत्पाद देखें",
+    "warrantystatus": "वारंटी का स्टेटस",
+    "viewtaggedproducts": "टैग किए गए प्रोडक्ट देखें",
     "view": "देखें",
-    "warrantyOTPverificationInstructionMessage": "कृपया परियोजना को बंद करने के लिए ग्राहक को भेजा गया ओटीपी दर्ज करें",
+    "warrantyOTPverificationInstructionMessage": "कृपया वारंटी बंद करने के लिए ग्राहक को भेजा गया OTP दर्ज करें",
     "certifiedContractorsOnly": "केवल प्रमाणित ठेकेदार",
-    "certifiedWarningDescription": "यह सुविधा केवल उड़ान प्रमाणित ठेकेदारों के लिए सुलभ है।",
-    "active": "सक्रिय",
-    "notApplicable": "लागू नहीं",
-    "paintablescannedarea": "पेंट करने योग्य स्कैन किया गया क्षेत्र",
-    "waterproofingscannedarea": "स्कैन किए गए क्षेत्र को जलरोधी बनाना",
+    "certifiedWarningDescription": "यह सुविधा केवल उड़ान प्रमाणित ठेकेदारों के लिए उपलब्ध है।",
+    "active": "एक्टिव है",
+    "notApplicable": "लागू नहीं होता है",
+    "paintablescannedarea": "पेंट करने योग्य स्कैन किया गया एरिया",
+    "waterproofingscannedarea": "वॉटरप्रूफिंग के लिए स्कैन किया गया एरिया",
     "paintablescannedpercentage": "पेंट करने योग्य स्कैन किया गया प्रतिशत",
-    "waterproofingscannedpercentage": "वाटरप्रूफिंग स्कैन किया गया प्रतिशत",
-    "selectProduct": "कृपया कम से कम एक उत्पाद चुनें",
-    "addProductDetail": "कृपया परियोजना प्रक्रिया को आगे बढ़ाने के लिए कम से कम एक उत्पाद जोड़ें।",
-    "leackageValidation": "Please select if there is any active leakage in the project",
-    "moistureValidation": "Please select if there is any moisture on the walls of the house",
-    "cracksValidation": "Please select if there are any cracks on the walls",
-    "comprehensiveWarrantyText": "You are registering for a comprehensive warranty. Please note that all the information entered by you will be communicated to the customer. Would you like to continue?",
-    "projectClose": "Project Closed Successfully!",
-    "projectCloseText": "All project details have been archived. You can view the archived projects anytime.",
-    "ProductDeletedSuccessfully": "Product Deleted Successfully"
+    "waterproofingscannedpercentage": "वॉटरप्रूफिंग के लिए स्कैन किया गया प्रतिशत",
+    "selectProduct": "कृपया कम से कम एक प्रोडक्ट चुनें",
+    "addProductDetail": "वारंटी प्रक्रिया को आगे बढ़ाने के लिए कृपया कम से कम एक उत्पाद जोड़ें",
+    "leackageValidation": "कृपया चुनें कि क्या प्रोजेक्ट में कोई एक्टिव लीकेज है",
+    "moistureValidation": "कृपया चुनें कि क्या घर की दीवारों पर कोई नमी है",
+    "cracksValidation": "कृपया चुनें कि क्या दीवारों पर कोई दरार है",
+    "comprehensiveWarrantyText": "आप कॉम्प्रिहेंसिव वारंटी के लिए रजिस्टर कर रहे हैं। कृपया ध्यान दें कि आपके द्वारा दर्ज की गई सभी जानकारी ग्राहक को बताई जाएगी। क्या आप जारी रखना चाहेंगे? ",
+    "projectClose": "प्रोजेक्ट सफलतापूर्वक बंद कर दिया गया है!",
+    "projectCloseText": "सभी प्रोजेक्ट विवरण आर्काइव कर दिए गए हैं। आप आर्काइव किए गए प्रोजेक्ट कभी भी देख सकते हैं। सभी प्रोजेक्ट विवरण संग्रहीत कर दिए गए हैं। आप संग्रहीत प्रोजेक्ट कभी भी देख सकते हैं।",
+    "ProductDeletedSuccessfully": "प्रोडक्ट सफलतापूर्वक डिलीट कर दिया गया है",
+    "projectChecklist": "प्रोजेक्ट का विवरण",
+    "warrantyPreparationChecklist": "Opus Assurance Preparation Checklist",
+    "comprehensiveWarrantyRegistrationdesc": "You are registering for Birla Opus Assurance. Would you like to continue?",
+    "projecttaggederrors": "The product was scanned earlier than the allowed timeframe for tagging to the Opus Assurance.",
+    "viewsummarytaggedproject": "Tap 'View Summary' for more details.",
+    "paintablearea": "What is Paintable area?",
+    "maxValueError": "Max value should not be more than 1000000",
+    "comprehensiveWarrantyHeaderText": "Comprehensive Warranty Registration",
+    "sqft": "वर्ग फुट"
   },
   "mobileNumber": "मोबाइल नंबर",
   "name": "नाम",
@@ -860,19 +877,24 @@
   "verifyyourPANdetails": "अब आप अपने पैन विवरण को वेरीफाई करने के लिए आगे बढ़ सकते हैं",
   "entrie": "प्रवेश",
   "CreateProjectValidation": {
-    "plzEnterProjectName": "Please enter project name",
-    "plzEnterFirstName": "Please enter customer's first name",
-    "plzEnterLastName": "Please enter customer's last name",
-    "plzEnterCustomerMobileNumber": "Please enter customer's mobile number",
-    "plzEnterCustomerEmailId": "Please enter customer's email",
-    "plzEnterStreet": "Please enter state",
-    "plzEnterCity": "Please enter city",
-    "plzFlatNo": "Please enter Flat no/ Building Name",
-    "plzAddress": "Please enter address",
-    "plzRoom": "Please enter no. of rooms",
-    "plzpincode": "Please enter pin code",
-    "AllField": "Please fill out the required field"
+    "plzEnterProjectName": "कृपया प्रोजेक्ट का नाम डालें",
+    "plzEnterFirstName": "कृपया ग्राहक का पहला नाम डालें",
+    "plzEnterLastName": "कृपया ग्राहक का अंतिम नाम डालें",
+    "plzEnterCustomerMobileNumber": "कृपया ग्राहक का मोबाइल नंबर डालें",
+    "plzEnterCustomerEmailId": "कृपया ग्राहक का ईमेल डालें",
+    "plzEnterStreet": "कृपया राज्य डालें",
+    "plzEnterCity": "कृपया शहर डालें",
+    "plzFlatNo": "कृपया फ्लैट नंबर/बिल्डिंग का नाम डालें",
+    "plzAddress": "कृपया पता डालें",
+    "plzRoom": "कृपया कमरों की संख्या डालें",
+    "plzpincode": "कृपया पिन कोड डालें",
+    "AllField": "कृपया आवश्यक फील्ड भरें"
   },
   "singleScan": "कैशटोकन को प्रोजेक्ट से लिंक नहीं किया जा सकता है।",
-  "sendOtp": "Send OTP"
+  "sendOtp": "OTP भेजें",
+  "architectId": "Architect ID",
+  "locked": "This feature is currently locked",
+  "pincodeerror": "Please enable location services to fetch the pincode.",
+  "termsAndPrivacyAgreement": "जारी रखकर, मैं <terms>नियम और शर्तें</terms> और <privacy>गोपनीयता नीति</privacy> से सहमत हूं।",
+  "addProductDetail": "प्रोजेक्ट प्रक्रिया के साथ आगे बढ़ने के लिए कृपया कम से कम एक प्रोडक्ट जोड़ें। जानकारी को पूरा दर्शाने के लिए यह मैसेज कई लाइनों में प्रदर्शित होगा।"
 }
