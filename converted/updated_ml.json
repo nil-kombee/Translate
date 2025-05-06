@@ -498,7 +498,7 @@
     "newTeamMemberAdded": "പുതിയ ടീം അംഗത്തെ ചേർത്തു.",
     "searchmember": "உறுப்பினர்களைத் தேடுங்கள்",
     "searchdealer": "டீலர்களைத் தேடுங்கள்",
-    "add": "Add "
+    "add": "ചേർക്കുക"
   },
   "addpaymentmethod": {
     "addpaymentmethod": "பேமெண்ட் முறையைச் சேர்க்கவும்",
@@ -776,8 +776,8 @@
     "addressLine1": "വിലാസം",
     "dateRange": "തീയതി പരിധി",
     "CloseProjectValidation": "ബാക്ക് ക്ലിക്ക് ചെയ്ത് നിങ്ങൾക്ക് ഇവിടേക്ക് തിരികെ വന്ന് പ്രൊജക്റ്റ് ക്ളോസ് ചെയ്യുന്നതിന് മുൻപ് എപ്പോൾ വേണമെങ്കിലും എഡിറ്റ് ചെയ്യാം.",
-    "Success": "ലീഡ് വിജയകരമായി മാറ്റി",
-    "LeadConvertedSuccessfully": "വിജയകരം",
+    "LeadConvertedSuccessfully": "ലീഡ് വിജയകരമായി മാറ്റി",
+    "Success": "വിജയകരം",
     "addprojectDetails": "Add Project Details"
   },
   "mediaSelection": {

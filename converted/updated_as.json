@@ -127,8 +127,8 @@
   "pleaseEnter12or13DigitCode": "অনুগ্ৰহ কৰি 12 বা 13 সংখ্যাৰ ক'ড দিব।",
   "pleaseEnter13DigitCode": "অনুগ্ৰহ কৰি 13 অংকৰ ক'ড দিব।",
   "weAreCapturingCodePleaseWait": "আমি ক'ডটো ধৰিবলৈ কৰিবলৈ চেষ্টা কৰিছো, অনুগ্ৰহ কৰি অপেক্ষা কৰক",
-  "scanQRCode": "QR ক'ড স্কেন কৰক",
-  "wrongQrCodeScanForAttendance": "উপস্থিতিৰ বাবে ভুল QR ক'ড স্কেন কৰা যেন লাগে। অনুগ্ৰহ কৰি শুদ্ধটো স্কেন কৰক।",
+  "scanQRCode": "কিউ.আৰ ক'ড স্কেন কৰক",
+  "wrongQrCodeScanForAttendance": "উপস্থিতিৰ বাবে ভুল কিউ.আৰ ক'ড স্কেন কৰা যেন লাগে। অনুগ্ৰহ কৰি শুদ্ধটো স্কেন কৰক।",
   "newteamrequest": "নতুন দলৰ অনুৰোধ",
   "goback": "উভতি যাওক",
   "getReferralCode": {
@@ -483,7 +483,7 @@
     "opuscard": "আপোনাৰ প্ৰ'ফাইলত প্ৰৱেশ কৰক, আপোনাৰ লাভালাভ উপভোগ কৰক, ইয়াক আপোনাৰ ডিজিটেল ভিজিটিং কাৰ্ড হিচাপে ভাগ বতৰা কৰক, আৰু বহুতো",
     "completekyc": "অপাছ লাভালাভসমূহ প্ৰাপ্ত কৰিবলৈ আপোনাৰ কেৱাইচি সম্পূৰ্ণ কৰক",
     "cameraScan": "কেমেৰা স্কেন",
-    "cameraDescription": "QR ক’ড স্কেন কৰিবলৈ আপোনাৰ ফোনটোৰ কেমেৰা ব্যৱহাৰ কৰক।",
+    "cameraDescription": "কিউ.আৰ ক’ড স্কেন কৰিবলৈ আপোনাৰ ফোনটোৰ কেমেৰা ব্যৱহাৰ কৰক।",
     "galleryScan": "গেলেৰী স্কেন",
     "galleryDescription": "আপোনাৰ গেলেৰীৰ পৰা কিউ.আৰ ক'ড ছবিখন বাছক",
     "manualEntry": "মেনুৱেল এণ্ট্ৰি",
@@ -498,7 +498,7 @@
     "newTeamMemberAdded": "দলৰ এজন নতুন সদস্য যোগ দিয়া হৈছে।",
     "searchmember": "সদস্য সন্ধান কৰক",
     "searchdealer": "ডিলাৰ সন্ধান কৰক",
-    "add": "Add "
+    "add": "যোগ কৰক"
   },
   "addpaymentmethod": {
     "addpaymentmethod": "পেমেণ্ট পদ্ধতি যোগ কৰক",
@@ -776,8 +776,8 @@
     "addressLine1": "ঠিকনা",
     "dateRange": "তাৰিখৰ পৰিসৰ",
     "CloseProjectValidation": "আপুনি পিছলৈ ক্লিক কৰি ইয়ালৈ উভতি আহি প্ৰকল্পটো বন্ধ কৰাৰ আগতে যিকোনো সময়তে ইয়াক সম্পাদনা কৰিব পাৰে।",
-    "Success": "লিডটো সফলতাৰে ৰূপান্তৰিত কৰা হৈছে",
-    "LeadConvertedSuccessfully": "সফল হ'ল",
+    "LeadConvertedSuccessfully": "লিডটো সফলতাৰে ৰূপান্তৰিত কৰা হৈছে",
+    "Success": "সফল হ'ল",
     "addprojectDetails": "Add Project Details"
   },
   "mediaSelection": {

@@ -499,7 +499,7 @@
     "newTeamMemberAdded": "ಹೊಸ ಟೀಮ್ ಸದಸ್ಯರನ್ನು ಸೇರಿಸಲಾಗಿದೆ.",
     "searchmember": "ಸದಸ್ಯರನ್ನು ಹುಡುಕಿ",
     "searchdealer": "ಡೀಲರ್‌ಗಳನ್ನು ಹುಡುಕಿ",
-    "add": "Add "
+    "add": "ಸೇರಿಸಿ "
   },
   "addpaymentmethod": {
     "addpaymentmethod": "ಪೇಮೆಂಟ್ ವಿಧಾನವನ್ನು ಸೇರಿಸಿ",
@@ -777,8 +777,8 @@
     "addressLine1": "ವಿಳಾಸ",
     "dateRange": "ದಿನಾಂಕ ಶ್ರೇಣಿ",
     "CloseProjectValidation": "ನೀವು ಬ್ಯಾಕ್ ಕ್ಲಿಕ್ ಮಾಡುವ ಮೂಲಕ ಇಲ್ಲಿಗೆ ಹಿಂತಿರುಗಬಹುದು ಮತ್ತು ಪ್ರಾಜೆಕ್ಟ್ ಅನ್ನು  ಮುಚ್ಚುವ ಮೊದಲು ಯಾವುದೇ ಸಮಯದಲ್ಲಿ ಅದನ್ನು ಎಡಿಟ್ ಮಾಡಬಹುದು.",
-    "Success": "ಲೀಡ್ ಅನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಪರಿವರ್ತಿಸಲಾಗಿದೆ",
-    "LeadConvertedSuccessfully": "ಯಶಸ್ವಿಯಾಗಿದೆ",
+    "LeadConvertedSuccessfully": "ಲೀಡ್ ಅನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಪರಿವರ್ತಿಸಲಾಗಿದೆ",
+    "Success": "ಯಶಸ್ವಿಯಾಗಿದೆ",
     "addprojectDetails": "Add Project Details"
   },
   "mediaSelection": {

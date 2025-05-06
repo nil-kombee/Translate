@@ -498,7 +498,7 @@
     "newTeamMemberAdded": "টিমের নতুন সদস্যকে যোগ করা হয়েছে।",
     "searchmember": "মেম্বারদের খুঁজুন",
     "searchdealer": "ডিলারদের খুঁজুন",
-    "add": "Add "
+    "add": "যোগ করুন"
   },
   "addpaymentmethod": {
     "addpaymentmethod": "পেমেন্ট করার পদ্ধতি যোগ করুন",
@@ -776,8 +776,8 @@
     "addressLine1": "জানুন",
     "dateRange": "তারিখের পরিসর",
     "CloseProjectValidation": "আপনি প্রোজেক্টটা বন্ধ করার আগে যে কোনো সময় আবার ক্লিক করে এখানে ফিরে আসতে পারেন এবং এটাকে এডিট করতে পারেন।",
-    "Success": "লিডকে সফলভাবে রূপান্তরিত করা হয়েছে",
-    "LeadConvertedSuccessfully": "সফল হয়েছে",
+    "Success": "সফল হয়েছে",
+    "LeadConvertedSuccessfully": "লিডকে সফলভাবে রূপান্তরিত করা হয়েছে",
     "addprojectDetails": "Add Project Details"
   },
   "mediaSelection": {

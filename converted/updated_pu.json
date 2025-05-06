@@ -776,8 +776,8 @@
     "addressLine1": "ਪਤਾ",
     "dateRange": "ਤਾਰੀਖ਼ ਰੇਂਜ",
     "CloseProjectValidation": "ਤੁਸੀਂ ਆਪਣੇ ਬੈਂਕ ਤੇ ਕਲਿੱਕ ਕਰਕੇ ਇੱਥੇ ਵਾਪਸ ਆ ਸਕਦੇ ਹੋ ਅਤੇ ਪ੍ਰੋਜੈਕਟ ਬੰਦ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਕਦੇ ਵੀ ਇਸ ਵਿੱਚ ਫੇਰਬਦਲ ਕਰ ਸਕਦੇ ਹੋ।",
-    "Success": "ਲੀਡ ਸਫਲਤਾਪੂਰਵਕ ਬਦਲ ਦਿੱਤੀ ਗਈ ਹੈ।",
-    "LeadConvertedSuccessfully": "ਸਫਲ ਰਿਹਾ",
+    "LeadConvertedSuccessfully": "ਲੀਡ ਸਫਲਤਾਪੂਰਵਕ ਬਦਲ ਦਿੱਤੀ ਗਈ ਹੈ।",
+    "Success": "ਸਫਲ ਰਿਹਾ",
     "addprojectDetails": "Add Project Details"
   },
   "mediaSelection": {

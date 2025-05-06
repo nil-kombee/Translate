@@ -445,8 +445,8 @@
     "transactionid": "ट्रांज़ैक्शन आई.डी.",
     "couponCode": "कूपन कोड",
     "rupees": "रुपये",
-    "MinRedPoint": "For redeeming the first time, you need minimum",
-    "MinRedRupee": "For redeeming the first time, you need an amount of minimum Rs.",
+    "MinRedPoint": "पहली बार रिडीम करने के लिए आपको न्यूनतम",
+    "MinRedRupee": "पहली बार रिडीम करने के लिए आपके पास न्यूनतम",
     "MinRedRupeelast": "रुपये की राशि होनी चाहिए।",
     "MinRedPointlast": "अंक चाहिए।"
   },
@@ -500,7 +500,7 @@
     "newTeamMemberAdded": "नया टीम मेंबर जोड़ा गया।",
     "searchmember": "सदस्य सर्च करें",
     "searchdealer": "डीलर सर्च करें",
-    "add": "Add "
+    "add": "ऐड"
   },
   "addpaymentmethod": {
     "addpaymentmethod": "पेमेंट का तरीका जोड़ें",
@@ -778,8 +778,8 @@
     "addressLine1": "पता",
     "dateRange": "तिथि सीमा",
     "CloseProjectValidation": "आप बैक पर क्लिक करके यहां वापस आ सकते हैं और प्रोजेक्ट बंद करने से पहले कभी भी इसे एडिट कर सकते हैं।",
-    "Success": "लीड सफलतापूर्वक बदल दी गई है",
-    "LeadConvertedSuccessfully": "सफल रहा",
+    "LeadConvertedSuccessfully": "लीड सफलतापूर्वक बदल दी गई है",
+    "Success": "सफल रहा",
     "addprojectDetails": "Add Project Details"
   },
   "mediaSelection": {

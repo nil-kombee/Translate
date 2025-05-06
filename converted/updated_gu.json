@@ -134,7 +134,7 @@
   "getReferralCode": {
     "enterCode": "કોડ દાખલ કરો",
     "enterReferralCode": "રેફરલ કોડ દાખલ કરો",
-    "haveReferralCodePlzEnterReferralCode": "શું તમારી પાસે રેફરલ કોડ છે?\\કૃપા કરીને નીચે દાખલ કરો",
+    "haveReferralCodePlzEnterReferralCode": "શું તમારી પાસે રેફરલ કોડ છે?\nકૃપા કરીને નીચે દાખલ કરો",
     "plzEnterValidCode": "કૃપા કરીને માન્ય રેફરલ કોડ દાખલ કરો"
   },
   "onboarding": {
@@ -284,7 +284,7 @@
     "lblSuccessMsg": "તમે હંમેશા પ્રોફાઇલ વિભાગ હેઠળ બેંક વિગતોમાં બહુવિધ યુપીઆઈ આઈડી ને કાઢી અથવા ઉમેરી શકો છો",
     "lblFailedTitle": "યુપીઆઈ આઈડી ઉમેરવામાં અસમર્થ",
     "lblFailedMsg": "તમારું યુપીઆઈ આઈડી ઉમેરવાનો પ્રયાસ કરતી વખતે અમને એક સમસ્યા આવી",
-    "addupiid": "UPI ID ઉમેરો"
+    "addupiid": "યુપીઆઈ આઈડી ઉમેરો"
   },
   "bankAccountDetailsScreen": {
     "lblTitle": "બેંક ખાતાની વિગતો",
@@ -498,7 +498,7 @@
     "newTeamMemberAdded": "ટીમનો નવો સભ્ય ઉમેરાયો.",
     "searchmember": "સભ્યો શોધો",
     "searchdealer": "ડીલરો શોધો",
-    "add": "Add "
+    "add": "ઉમેરો"
   },
   "addpaymentmethod": {
     "addpaymentmethod": "પેમેન્ટ પદ્ધતિ ઉમેરો",
@@ -776,8 +776,8 @@
     "addressLine1": "સરનામું",
     "dateRange": "તારીખ શ્રેણી",
     "CloseProjectValidation": "તમે બેક પર ક્લિક કરીને અહીં પાછા આવી શકો છો અને પ્રોજેક્ટ બંધ કરતા પહેલા ક્યારેય પણ તેને એડિટ કરી શકો છો.",
-    "Success": "લીડ સફળતાપૂર્વક રૂપાંતરિત કરવામાં આવેલ છે",
-    "LeadConvertedSuccessfully": "સફળ થયેલ છે",
+    "LeadConvertedSuccessfully": "લીડ સફળતાપૂર્વક રૂપાંતરિત કરવામાં આવેલ છે",
+    "Success": "સફળ થયેલ છે",
     "addprojectDetails": "Add Project Details"
   },
   "mediaSelection": {

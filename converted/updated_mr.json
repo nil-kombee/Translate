@@ -498,7 +498,7 @@
     "newTeamMemberAdded": "टीममध्ये नवीन सदस्य जोडला आहे ",
     "searchmember": "मेंबर्स शोधा",
     "searchdealer": "डीलर्स शोधा",
-    "add": "Add "
+    "add": "जोडा"
   },
   "addpaymentmethod": {
     "addpaymentmethod": "पेमेंट मेथड जोडा",
@@ -631,7 +631,7 @@
   "quicklinks": {
     "comingsoon": "लवकरच\n येत आहे",
     "colorvisualizer": "कलर व्हिज्युअलायझर\n",
-    "traininglearning": "ट्रेनिंग आणि लर्निंग\n"
+    "traininglearning": "ट्रेनिंग आणि लर्निंग\n\n"
   },
   "redempoints": "गुण वसूल करा",
   "redemnow": "आता वसूल करा",
@@ -776,8 +776,8 @@
     "addressLine1": "पत्ता",
     "dateRange": "तारीख श्रेणी",
     "CloseProjectValidation": "तुम्ही बॅकवर क्लिक करून पुन्हा येथे परत येऊ शकता आणि प्रोजेक्ट बंद करण्यापूर्वी कधीही एडिट  करू शकता.",
-    "Success": "लीड यशस्वीपणे कन्व्हर्ट झाली",
-    "LeadConvertedSuccessfully": "यशस्वी झाले \n",
+    "LeadConvertedSuccessfully": "लीड यशस्वीपणे कन्व्हर्ट झाली",
+    "Success": "यशस्वी झाले \n",
     "addprojectDetails": "Add Project Details"
   },
   "mediaSelection": {

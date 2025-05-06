@@ -777,8 +777,8 @@
     "addressLine1": "முகவரி",
     "dateRange": "தேதி வரம்பு",
     "CloseProjectValidation": "நீங்கள் இங்கே திரும்பி வந்து, ப்ராஜக்டை மூடுவதற்கு முன் எந்த நேரத்திலும் அதைஎடிட் செய்யலாம்.",
-    "Success": "லீட் வெற்றிகரமாக மாற்றப்பட்டது",
-    "LeadConvertedSuccessfully": "வெற்றி",
+    "LeadConvertedSuccessfully": "லீட் வெற்றிகரமாக மாற்றப்பட்டது",
+    "Success": "வெற்றி",
     "addprojectDetails": "Add Project Details"
   },
   "mediaSelection": {

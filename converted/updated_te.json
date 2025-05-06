@@ -777,8 +777,8 @@
     "addressLine1": "చిరునామా",
     "dateRange": "తేదీ పరిధి",
     "CloseProjectValidation": "మీరు ఇక్కడికి తిరిగి వచ్చి ప్రాజెక్ట్‌ను మూసివేసే ముందు ఏ సమయంలోనైనా 'బ్యాక్' ని క్లిక్ చేయడం ద్వారా దాన్ని ఎడిట్ చేయవచ్చు.",
-    "Success": "లీడ్ విజయవంతంగా మార్చబడింది",
-    "LeadConvertedSuccessfully": "విజయం",
+    "LeadConvertedSuccessfully": "లీడ్ విజయవంతంగా మార్చబడింది",
+    "Success": "విజయం",
     "addprojectDetails": "Add Project Details"
   },
   "mediaSelection": {
