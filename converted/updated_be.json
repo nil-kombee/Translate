@@ -776,8 +776,8 @@
     "addressLine1": "জানুন",
     "dateRange": "তারিখের পরিসর",
     "CloseProjectValidation": "আপনি প্রোজেক্টটা বন্ধ করার আগে যে কোনো সময় আবার ক্লিক করে এখানে ফিরে আসতে পারেন এবং এটাকে এডিট করতে পারেন।",
-    "Success": "সফল হয়েছে",
     "LeadConvertedSuccessfully": "লিডকে সফলভাবে রূপান্তরিত করা হয়েছে",
+    "Success": "সফল হয়েছে",
     "addprojectDetails": "Add Project Details"
   },
   "mediaSelection": {
