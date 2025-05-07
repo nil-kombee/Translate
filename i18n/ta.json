@@ -83,7 +83,7 @@
   "linkedDealers": "இணைத்த டீலர்கள்",
   "completeYourKYC": "உமது கே.ஒய்.சி நிறைவுசெய்க",
   "addNewMember": "புதிய உறுப்பினரை சேர்க்க",
-  "linkNewDealer": "புது டீலரை இணை",
+  "linkNewDealer": "புது டீலரை இணைக்க",
   "panNumber": "பான் எண்",
   "add": "சேர்த்திடு",
   "newmemberrequest": "புதிய உறுப்பினர் கோரிக்கை",
@@ -112,7 +112,7 @@
   "month": "மாதம்",
   "default": "இயல்பு",
   "done": "முடிந்தது",
-  "skipfornow": "இப்போதைக்கு தாவிடு",
+  "skipfornow": "இப்போதைக்கு தவிர்க்கவும்",
   "knowmore": "அதுபற்றி மேலும் அறிக",
   "featureunavailable": "அம்சம் கிடைக்கவில்லை!",
   "featurecomingsoon": "இந்த அம்சம் விரைவில் வருகிறது. காத்திருங்கள்!",
@@ -184,12 +184,12 @@
     "lblProfileDetails": "சுயவிவரம்",
     "lblAadharPANverification": "ஆதார் & பான் சரிபார்த்தல்",
     "lblBankVerification": "வங்கி சரிபார்ப்பு",
-    "lblSkipToHome": "வீட்டிற்குச் செல்",
+    "lblSkipToHome": "முகப்புக்குச் செல்",
     "lblGoToHome": "முகப்பிற்குச் செல்",
     "completeprofiledetail": "தயவுசெய்து உங்கள் சுயவிவர விபரங்களை முடிக்கவும் தொடர முடியும்"
   },
   "homeScreen": {
-    "lblOpusId": "ஓப்பஸ் ஐ.டி",
+    "lblOpusId": "ஓபஸ் ஐ.டி",
     "lblQuickLinks": "விரைவு இணைப்புகள்",
     "lblSchemesOffers": "திட்டங்கள் & தள்ளுபடிகள்",
     "lblStepsToEarnMore": "மேலும் வரவுபெற வழிகள்",
@@ -343,7 +343,7 @@
   "userDetailsScreen": {
     "lblTitle": "இன்னும் ஒருசில பொருட்கள்",
     "lblDescription": "சுயவிவரப் படம் சேர்த்திடு",
-    "lblfirstName": "இட்ட பெயர்",
+    "lblfirstName": "பெயர்",
     "lbllastName": "குடும்பப் பெயர்",
     "lblemail": "மின்னஞ்சல்"
   },
@@ -398,7 +398,7 @@
     "workLocation": "பணியிடம்",
     "profileDetails": "சுயவிவரம்",
     "kycDetails": "கே.ஒய்.சி விபரம்",
-    "opusId": "ஓப்பஸ் ஐ.டி",
+    "opusId": "ஓபஸ் ஐ.டி",
     "myFavourites": "நான் விரும்புபவை",
     "kycInformation": "கே.ஒய்.சி தகவல்",
     "savedUpiId": "சேமித்த யூ.பி.ஐ ஐ.டி",
@@ -416,12 +416,12 @@
     "otpInputDescription": "இந்தச் செயலை நிறைவு செய்ய தயவுசெய்து உங்கள் தொலைபேசி எண்ணுக்கு அனுப்பிய 6 இலக்க ஓ.டி.பி உள்ளிடுக",
     "silvercontractor": "வெள்ளி ஒப்பந்தகாரர்",
     "firstName": "இட்ட பெயர்",
-    "lastName": "குடும்பப் பெயர்",
+    "lastName": "தந்தை பெயர்",
     "defaultpayment": "இயல்புச் செலுத்தலாக அமைத்திடு",
     "removeupi": "யூ.பி.ஐ ஐ.டி நீக்கு",
     "removebank": "வங்கிக் கணக்கு நீக்கு",
-    "dealershopname": "விற்பனை சோப் பெயர்",
-    "dealercode": "விற்பனை குறியீடு",
+    "dealershopname": "விற்பனையாளரின் கடையின் பெயர்",
+    "dealercode": "விற்பனையாளரின் கடையின் குறியீட்டு எண்",
     "mobilenumber": "விற்பனையாளரின் மொபைல் எண்"
   },
   "redeemPointsScreen": {
@@ -493,13 +493,13 @@
     "flashlightDescription": "குறைந்த வெளிச்சத்திலும் சிறந்த ஸ்கேனிங்கிற்கு ஃபிளாஷ்லைட்டை இயக்கவும்! ஸ்கேனர் திரையில் ஃபிளாஷ்லைட் ஐகானைத் தட்டவும்."
   },
   "myTeams": {
-    "toYourDealersList": "உங்கள் டீலர் பட்டியலுக்கா?",
+    "toYourDealersList": "ஐ உங்கள் விற்னையாளர் பட்டியலில் சேர்க்கலாமா?",
     "isNowDealerList": "இப்போது உங்கள் டீலர்கள் பட்டியலில்",
     "requestSentTo": "க்கு கோரிக்கை அனுப்பப்பட்டது",
     "newTeamMemberAdded": "புது குழு உறுப்பினர் சேர்ப்பு.",
     "searchmember": "உறுப்பினர்களைத் தேடுங்கள்",
     "searchdealer": "டீலர்களைத் தேடுங்கள்",
-    "add": "Add "
+    "add": ""
   },
   "addpaymentmethod": {
     "addpaymentmethod": "பேமெண்ட் முறையைச் சேர்க்கவும்",
@@ -627,7 +627,7 @@
     "scan": "ஸ்கேன்",
     "home": "ஹோம்",
     "reward": "வெகுமதிகள்",
-    "opushome": "ஓப்பஸ் ஹோம்"
+    "opushome": "ஓபஸ் ஹோம்"
   },
   "quicklinks": {
     "comingsoon": "விரைவில்\n வரும்",
@@ -663,11 +663,11 @@
   "equals": "சமம்",
   "raiseanissue": {
     "issues": "பிரச்சினைகள்",
-    "viewallissues": "பிரச்சனைகள் அனைத்தும் காண்க",
+    "viewallissues": "எல்லா சிக்கல்களையும் காண்க",
     "allissues": "அனைத்து பிரச்சினைகள்",
     "openissues": "தீர்க்காத பிரச்சினைகள்",
     "closedissues": "தீர்ந்த பிரச்சினைகள்",
-    "raisetransactionissues": "பரிவர்த்தனைப் பிரச்சினை எழுப்பு",
+    "raisetransactionissues": "பரிவர்த்தனை பிரச்சனையை எழுப்பு",
     "raiseanissue": "புகாரை எழுப்புங்கள்",
     "yourissue": "உங்கள் பிரச்சினையை எங்களிடம் சொல்லுங்கள். அதை விரைந்து தீர்க்க உதவ முயலுவோம்.",
     "selecttransaction": "பிரச்சினை பதிவதற்கு பரிவர்த்தனை ஒன்று தேர்ந்தெடுங்கள்",
