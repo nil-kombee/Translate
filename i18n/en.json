@@ -301,19 +301,19 @@
   "confirmBankDetailsScreen": {
     "lblDescription": "Please confirm if below account details are correct",
     "lblYes": "Yes, it is correct",
-    "lblNo": "No, it isn’t correct",
+    "lblNo": "No, it isn't correct",
     "lblSuccessTitle": "Bank account added",
     "lblSuccessMsg": "You can always delete or add multiple bank accounts in bank details under profile section",
     "lblFailedTitle": "Bank Account Verification Failed",
-    "lblFailedMsg": "It may take a while for funds to get credited in your bank account; check the ‘Bank Details section’ here after some time."
+    "lblFailedMsg": "It may take a while for funds to get credited in your bank account; check the 'Bank Details section' here after some time."
   },
   "getContractorDetailsScreen": {
-    "lblTitle": "Contractor’s Details",
+    "lblTitle": "Contractor's Details",
     "lblDescription": "Can you let us know the contractor details that you are working with?",
-    "lblInputName": "Contractor’s first name",
-    "lblInputLastName": "Contractor’s last name",
+    "lblInputName": "Contractor's first name",
+    "lblInputLastName": "Contractor's last name",
     "lblInputPhone": "Mobile Number",
-    "lblName": "Contractor’s first name",
+    "lblName": "Contractor's first name",
     "numberErrorMessage": "You entered your number, please enter valid contractor's number"
   },
   "locationScreen": {
@@ -563,7 +563,7 @@
     "successcountmessage": "Fantastic! QR code successfully scanned",
     "unsuccessfulscan": "To review details of unsuccessful scans, please view the scan details",
     "successscan": "Successful scans left for the day",
-    "noactivity": "Hi, the QR code scanner couldn’t capture any codes since the past 180 seconds. You will be re-directed to Home screen.",
+    "noactivity": "Hi, the QR code scanner couldn't capture any codes since the past 180 seconds. You will be re-directed to Home screen.",
     "noactivityheader": "No activity detected",
     "blocked": "Blocked"
   },
@@ -659,9 +659,9 @@
     "completekycDetails": "Please complete your KYC to access this feature.",
     "tdsdetail": "20% TDS is applicable as per section 194R if PAN details are not provided."
   },
-  "redemptionnotavailable": "While we review your profile, redemption isn’t available just yet. Thanks for your patience!",
+  "redemptionnotavailable": "While we review your profile, redemption isn't available just yet. Thanks for your patience!",
   "scanretrict": "Scanning is restricted",
-  "scaningnotavailable": "While we review your profile, scanning isn’t available just yet. Thanks for your patience!",
+  "scaningnotavailable": "While we review your profile, scanning isn't available just yet. Thanks for your patience!",
   "painter": "Painter",
   "clickhere": "Click here to complete it!",
   "equals": "Equals",
@@ -736,8 +736,8 @@
     "warrantyRegistration": "Opus Assurance",
     "projectName": "Project name",
     "customerName": "Customer name",
-    "customerMobileNumber": "Customer’s mobile number",
-    "customerEmailId": "Customer’s email",
+    "customerMobileNumber": "Customer's mobile number",
+    "customerEmailId": "Customer's email",
     "noOfRooms": "No. of rooms",
     "totalPaintableArea": "Total paintable area(Interior & Exterior)",
     "enterPincode": "Enter pincode",
@@ -769,8 +769,8 @@
     "city": "City",
     "state": "State",
     "projectOTPverificationInstructionMessage": "an OTP has been sent to the customer. For registering Your Project, please get the OTP from customer and submit below.",
-    "customerFirstName": " Customer’s first name",
-    "customerLastName": "Customer’s last name",
+    "customerFirstName": " Customer's first name",
+    "customerLastName": "Customer's last name",
     "productTagSuccessMessage": "Product tagged to the project successfully",
     "tocommence": "To commence",
     "underway": "Underway",
@@ -783,7 +783,11 @@
     "CloseProjectValidation": "You can return here by clicking back and edit it anytime before closing the project.",
     "addprojectDetails": "Add Project Details",
     "Success": "Success",
-    "LeadConvertedSuccessfully": "Lead converted successfully"
+    "LeadConvertedSuccessfully": "Lead converted successfully",
+    "confirmation": "Confirmation",
+    "duplicatePhoneNumberMessage": "A project with the same phone number already exists. Do you want to create a new project?",
+    "oldProject": "Old project",
+    "newProject": "New project"
   },
   "mediaSelection": {
     "Uploadfromgallery": "Upload from gallery",
